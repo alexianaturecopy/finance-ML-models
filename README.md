@@ -1,10 +1,10 @@
-# Financial ML Models - CFO Portfolio
+# Financial ML Models 
 
 ## 🎯 Repository Overview
 
-A collection of **production-ready machine learning models** solving real-world financial problems across SaaS and healthcare industries. Built to demonstrate CFO-level technical capability in AI/ML applications.
+A collection of **production-ready machine learning models** solving real-world financial problems across SaaS and healthcare industries. Built to demonstrate enterprise-level technical capability in AI/ML applications.
 
-**Author**: Alexia | CPA, CFO transitioning to Web3/AI  
+**Author**: Alexia | CPA, transitioning to Web3/AI  
 **Purpose**: Portfolio demonstrating finance + AI expertise  
 **Status**: Model #1 Complete, Models #2-4 In Progress
 
@@ -92,7 +92,7 @@ A collection of **production-ready machine learning models** solving real-world 
 
 ## 🎓 What This Portfolio Demonstrates
 
-### For CFO/Finance Leadership Roles
+### For Finance Leadership Roles
 
 **1. Technical Fluency in AI/ML**
 - Not theoretical knowledge—working code
@@ -117,17 +117,7 @@ A collection of **production-ready machine learning models** solving real-world 
 - Healthcare: RCM, claims processing, patient collections
 - Transferable frameworks across industries
 
----
 
-## 💼 Use Cases & Impact
-
-### For Interviews
-
-**Opening Statement**:
-> "I've built a portfolio of financial ML models on my GitHub. The first one detects revenue leakage in SaaS businesses—it identified $370K in potential recovery on a test dataset of 1,000 accounts. Let me show you how it works and how I'd deploy it in production."
-
-**Why It Matters**:
-> "Modern CFOs need to do more than interpret data—they need to build systems that operationalize insights. These models show I can identify finance problems, apply AI solutions, and deliver measurable business impact. That's the skill set Web3 and AI companies need in their finance leaders."
 
 ### For Production Deployment
 
@@ -325,26 +315,11 @@ Each model includes:
 
 ---
 
-## 🎤 Interview Talking Points
-
-### "What's the most complex project you've built?"
-
-> "I built a portfolio of financial ML models addressing real CFO problems. The first one detects revenue leakage in SaaS businesses. I generated synthetic training data for 1,000 accounts, trained a two-stage model achieving 88% accuracy, and built an interactive dashboard. On the test data, it identified $372K in annual leakage. The code is on my GitHub, and I can walk you through deployment strategy."
-
-### "How do you stay current with AI/ML?"
-
-> "I don't just read about it—I build with it. My financial ML models repository has four production-ready models. I understand not just the theory but the practical challenges: data quality, model evaluation, deployment, and measuring business impact. This hands-on experience translates directly to evaluating AI vendors, building ML-powered finance tools, or understanding our engineering team's AI infrastructure costs."
-
-### "What would you build in your first 90 days as CFO?"
-
-> "I'd start with a revenue leakage detection system. Most SaaS companies lose 5-10% of revenue to preventable issues. I'd connect our billing system to an ML model—similar to what I built on GitHub—and identify high-risk accounts. The RevOps team could recover identified leakage within 6 months. At $50M ARR, that's potentially $2-3M in incremental revenue with no additional CAC. That's the type of quick-win operational improvement I'd prioritize."
-
----
 
 ## 📧 Contact & Links
 
 **Author**: Alexia  
-**Role**: CPA, CFO | Venture Partner at Solaris  
+**Role**: CPA | Venture Partner at Solaris  
 **Expertise**: Traditional Finance → Web3/AI Transition  
 **Location**: Salt Lake City, UT
 
@@ -354,9 +329,8 @@ Each model includes:
 3. Automation Transformation Framework (Complete)  
 4. Financial ML Models (50% Complete)
 
-**LinkedIn**: [Profile](#)  
-**GitHub**: [Repository](#)  
-**Email**: [Contact](#)
+**LinkedIn**: [https://www.linkedin.com/in/ye-quan-8b610820a/](#)  
+**Email**: [alexianaturecopy@gmail.com](#)
 
 ---
 
@@ -382,5 +356,4 @@ Or dive into the documentation:
 
 ---
 
-*Last Updated: December 2024*  
-*Repository Purpose: CFO Portfolio - Demonstrating Finance + AI Capabilities*
+*Last Updated: December 2025*  
