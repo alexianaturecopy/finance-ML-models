@@ -25,33 +25,6 @@ SaaS companies lose 5-15% of potential revenue to preventable leakage. This mode
 - Actionable recommendations
 
 ---
-
-## 🚀 Quick Start
-
-### 1. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Generate Data & Train Model
-```bash
-python train_model.py
-```
-
-Expected output:
-- ✅ `data/training_data.csv` - 1,000 synthetic accounts
-- ✅ `data/sample_accounts.csv` - 100 sample accounts for testing
-- ✅ `saved_models/revenue_leakage_model.pkl` - Trained ML model
-
-### 3. Launch Dashboard
-```bash
-streamlit run dashboard.py
-```
-
-Dashboard opens at: `http://localhost:8501`
-
----
-
 ## 📊 Dashboard Features
 
 ### Single Account Analysis
