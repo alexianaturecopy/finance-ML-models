@@ -171,25 +171,7 @@ On 1,000 account test set:
 
 **Expected Result**: Prevent future leakage at scale
 
----
 
-## 💼 Interview Talking Points
-
-### For CFO/Finance Roles
-
-**Opening Statement:**
-> "I built an ML model that identifies revenue leakage in SaaS businesses. On a test portfolio of 1,000 accounts, it identified $2.8M in annual leakage—money that should be billed but isn't. The model is on my GitHub with full working code and dashboard."
-
-**When Asked About Business Impact:**
-> "Revenue leakage is invisible on P&L statements—you just see lower revenue without knowing why. This model makes it visible and quantifiable. It flags accounts with failed payments, usage overages not billed, and contract pricing errors. Finance teams can recover 60-80% of identified leakage, which directly improves operating margin."
-
-**When Asked About Technical Approach:**
-> "It's a two-stage model. First, Random Forest classifies whether leakage exists based on payment history, engagement, and usage patterns. Second, Gradient Boosting estimates the dollar amount. I chose these algorithms because they handle non-linear relationships well and provide interpretable feature importance."
-
-**When Asked How You'd Deploy in Production:**
-> "Phase 1: Connect to the billing system (Stripe, Chargebee, etc.) via API. Phase 2: Schedule daily batch predictions. Phase 3: Integrate alerts into RevOps workflow—Slack notifications for high-risk accounts. Phase 4: Close the loop—track which flagged accounts we recovered and retrain the model monthly."
-
----
 
 ## 📁 File Structure
 
@@ -260,7 +242,6 @@ has_leakage = (leakage_prob >= 0.3).astype(int)
 
 ## 🎯 What This Demonstrates
 
-### For CFO Candidates
 
 **Systems Thinking:**
 - Built end-to-end solution from data generation to deployed dashboard
@@ -296,12 +277,7 @@ has_leakage = (leakage_prob >= 0.3).astype(int)
 - Set up automated email alerts
 - Build A/B testing framework (measure recovery rates)
 
-### Portfolio Integration
-- Add to GitHub with other finance ML models
-- Create demo video showing dashboard in action
-- Write blog post: "How I Built an ML Model to Find $2.8M in Lost Revenue"
 
----
 
 ## 🏆 Success Metrics
 
@@ -314,7 +290,6 @@ has_leakage = (leakage_prob >= 0.3).astype(int)
 **Business:**
 - ✅ Identifies 5-10% of revenue at risk
 - ✅ Actionable recommendations for 100% of flagged accounts
-- ✅ Interview-ready portfolio piece
 - ✅ Demonstrates CFO-level technical capability
 
 ---
@@ -323,11 +298,8 @@ has_leakage = (leakage_prob >= 0.3).astype(int)
 
 **Author**: Alexia  
 **Role**: CFO Transitioning to Web3/AI  
-**GitHub**: [Portfolio Repository](#)  
-**LinkedIn**: [Profile](#)
+**LinkedIn**: [https://www.linkedin.com/in/ye-quan-8b610820a/](#)
 
 ---
-
-*Built as part of CFO portfolio demonstrating financial ML capabilities*  
 *Status: Production-Ready Demo*  
 *Industry: SaaS / Subscription Business Models*
