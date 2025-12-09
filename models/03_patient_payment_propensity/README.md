@@ -1,5 +1,5 @@
 # Patient Payment Propensity - ML Model
-
+LIVE DEMO: https://finance-ml-models-g4blkqzfokshurelebwgcu.streamlit.app/
 AI-powered prediction system for healthcare patient payment likelihood
 
 ## Business Problem
@@ -19,13 +19,6 @@ Healthcare providers face 20-30% collection rates on patient balances. Predictin
 - **ROC-AUC**: 0.85+
 - **Top Features**: Payment capacity score, affordability, collection risk
 
-## Quick Start
-
-```bash
-pip install -r requirements.txt
-python train_model.py
-streamlit run dashboard.py
-```
 
 ## Business Impact
 
