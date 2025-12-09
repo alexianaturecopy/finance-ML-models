@@ -1,5 +1,5 @@
 # Claims Denial Prediction - ML Model
-
+LIVE DEMO 
 AI-powered prediction system for insurance claims denial risk
 
 ## Business Problem
@@ -18,14 +18,6 @@ AI-powered prediction system for insurance claims denial risk
 - **Accuracy**: 64%+
 - **Precision**: 68% (Approved), 57% (Denied)
 - **Top Factors**: Prior auth, documentation, coding
-
-## Quick Start
-
-```bash
-pip install -r requirements.txt
-python train_model.py
-streamlit run dashboard.py
-```
 
 ## Business Impact
 
