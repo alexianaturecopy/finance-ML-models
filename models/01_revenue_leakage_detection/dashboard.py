@@ -62,33 +62,13 @@ st.markdown("""
 
 @st.cache_resource
 def load_model():
-    """Load trained model (cached) - auto-train if not found"""
+    """Load trained model (cached)"""
     model_path = 'saved_models/revenue_leakage_model.pkl'
-    
     if os.path.exists(model_path):
         return RevenueLeakageModel.load_model(model_path)
     else:
-        # Model doesn't exist - train it now
-        st.warning("⏳ Training model for first time... This takes ~30 seconds")
-        
-        # Check if training data exists
-        if not os.path.exists('data/training_data.csv'):
-            # Generate training data
-            from generate_data import SaaSDataGenerator
-            generator = SaaSDataGenerator(num_accounts=1000)
-            df = generator.generate_complete_dataset()
-            df.to_csv('data/training_data.csv', index=False)
-        
-        # Load training data and train model
-        import pandas as pd
-        df = pd.read_csv('data/training_data.csv')
-        
-        model = RevenueLeakageModel()
-        model.train(df)
-        model.save_model(model_path)
-        
-        st.success("✅ Model trained successfully!")
-        return model
+        st.error("⚠️ Model not found. Please run train_model.py first.")
+        return None
 
 def create_prediction_form():
     """Create manual input form for single account prediction"""

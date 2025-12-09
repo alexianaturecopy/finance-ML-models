@@ -1,0 +1,1001 @@
+claim_id,payer,cpt_code,service_description,claim_amount,days_to_submission,prior_auth_obtained,documentation_complete,correct_coding,in_network,timely_filed,provider_denial_rate,denied,denial_reason,high_amount_flag,risk_score
+CLM000001,Medicaid,99214,Complex Visit,811,9,True,True,True,True,True,6.6,False,,0,0
+CLM000002,Medicaid,99214,Complex Visit,1242,6,True,False,True,True,True,14.0,False,,0,25
+CLM000003,Aetna,71020,X-Ray,920,15,True,True,False,False,True,41.5,True,Coverage Lapsed,0,35
+CLM000004,Medicare,80053,Lab Panel,966,18,True,True,True,True,True,9.4,True,Prior Auth,0,0
+CLM000005,Aetna,93000,EKG,1254,23,True,True,True,True,True,8.7,False,,0,0
+CLM000006,UnitedHealth,80053,Lab Panel,331,60,True,False,False,True,False,12.3,True,Timely Filing,0,70
+CLM000007,BlueCross,80053,Lab Panel,692,43,True,True,True,True,False,42.4,False,,0,25
+CLM000008,Aetna,80053,Lab Panel,1885,18,True,True,True,False,True,15.9,True,Coverage Lapsed,0,15
+CLM000009,Medicaid,93000,EKG,185,43,True,True,True,True,False,14.2,False,,0,25
+CLM000010,UnitedHealth,99214,Complex Visit,633,25,True,True,True,False,True,6.9,False,,0,15
+CLM000011,UnitedHealth,71020,X-Ray,1567,52,True,True,True,True,False,19.6,True,Coding Error,0,25
+CLM000012,Cigna,80053,Lab Panel,781,14,True,True,False,True,True,3.3,False,,0,20
+CLM000013,Medicaid,27447,Knee Replace,40536,9,False,False,True,True,True,26.0,False,,1,55
+CLM000014,Aetna,80053,Lab Panel,1545,9,False,False,True,True,True,33.9,True,Coverage Lapsed,0,55
+CLM000015,BlueCross,99213,Office Visit,148,39,True,True,True,False,False,3.7,True,Not Necessary,0,40
+CLM000016,Cigna,29881,Surgery,29363,44,False,True,False,True,False,7.8,True,Not Necessary,1,75
+CLM000017,Medicaid,80053,Lab Panel,1866,11,True,True,True,False,True,17.5,True,Coverage Lapsed,0,15
+CLM000018,BlueCross,80053,Lab Panel,1795,10,True,True,True,True,True,33.6,False,,0,0
+CLM000019,UnitedHealth,99223,Hospital,7279,8,True,True,True,True,True,36.2,False,,0,0
+CLM000020,UnitedHealth,80053,Lab Panel,893,6,True,True,True,True,True,14.9,False,,0,0
+CLM000021,Medicaid,27447,Knee Replace,33157,36,True,True,True,False,False,5.6,True,Prior Auth,1,40
+CLM000022,UnitedHealth,29881,Surgery,32403,43,True,True,True,False,False,10.7,False,,1,40
+CLM000023,Medicaid,93000,EKG,197,15,False,False,True,True,True,25.3,True,Not Necessary,0,55
+CLM000024,UnitedHealth,99213,Office Visit,1972,46,True,True,True,True,False,36.9,False,,0,25
+CLM000025,Medicaid,99213,Office Visit,798,5,True,True,True,True,True,25.7,False,,0,0
+CLM000026,Medicare,71020,X-Ray,709,47,True,False,True,True,False,32.5,True,Coverage Lapsed,0,50
+CLM000027,Aetna,27447,Knee Replace,37581,43,False,True,True,True,False,31.3,True,Timely Filing,1,55
+CLM000028,UnitedHealth,29881,Surgery,26937,4,False,False,True,True,True,11.8,True,Timely Filing,1,55
+CLM000029,Medicaid,93000,EKG,1106,35,True,True,True,True,False,15.3,False,,0,25
+CLM000030,Cigna,99223,Hospital,8390,16,False,True,True,False,True,41.9,False,,0,45
+CLM000031,BlueCross,27447,Knee Replace,37471,6,True,True,False,True,True,16.1,False,,1,20
+CLM000032,Aetna,99223,Hospital,5050,56,False,False,True,True,False,28.5,True,Timely Filing,0,80
+CLM000033,BlueCross,99223,Hospital,12121,60,False,True,True,True,False,15.0,False,,1,55
+CLM000034,Cigna,80053,Lab Panel,1349,19,False,False,True,True,True,8.8,True,Out of Network,0,55
+CLM000035,BlueCross,99213,Office Visit,1948,33,True,True,True,False,False,30.5,False,,0,40
+CLM000036,Medicare,99223,Hospital,10769,39,True,True,True,True,False,5.4,True,Not Necessary,1,25
+CLM000037,Medicaid,71020,X-Ray,1326,38,False,True,False,True,False,13.2,False,,0,75
+CLM000038,Medicare,99213,Office Visit,659,60,True,False,False,True,False,33.6,True,Duplicate,0,70
+CLM000039,Aetna,93000,EKG,1878,43,True,True,True,True,False,16.1,False,,0,25
+CLM000040,Medicaid,80053,Lab Panel,366,30,False,True,True,True,True,30.6,False,,0,30
+CLM000041,Medicare,99214,Complex Visit,783,9,True,True,False,True,True,33.9,False,,0,20
+CLM000042,UnitedHealth,99214,Complex Visit,1071,29,True,True,True,True,True,35.9,False,,0,0
+CLM000043,Medicare,80053,Lab Panel,1791,17,True,True,True,True,True,12.0,True,Not Necessary,0,0
+CLM000044,BlueCross,99223,Hospital,9655,46,True,True,False,True,False,2.9,True,Coding Error,0,45
+CLM000045,Aetna,80053,Lab Panel,1662,41,False,True,True,True,False,10.1,True,Timely Filing,0,55
+CLM000046,UnitedHealth,99213,Office Visit,1283,11,True,True,True,True,True,33.5,False,,0,0
+CLM000047,Medicaid,27447,Knee Replace,33070,57,False,True,True,True,False,36.1,True,Prior Auth,1,55
+CLM000048,Medicare,99213,Office Visit,148,3,True,True,True,True,True,6.1,False,,0,0
+CLM000049,UnitedHealth,93000,EKG,1143,43,True,True,True,True,False,21.5,False,,0,25
+CLM000050,BlueCross,93000,EKG,1153,52,False,True,True,True,False,3.3,False,,0,55
+CLM000051,Aetna,29881,Surgery,15503,52,True,True,True,False,False,8.9,True,Out of Network,1,40
+CLM000052,UnitedHealth,99223,Hospital,6732,15,True,False,True,False,True,4.0,True,Out of Network,0,40
+CLM000053,Cigna,93000,EKG,811,43,True,True,True,True,False,9.7,True,Out of Network,0,25
+CLM000054,Cigna,93000,EKG,234,42,True,True,True,True,False,15.3,False,,0,25
+CLM000055,Medicare,29881,Surgery,28585,12,True,True,True,True,True,6.2,False,,1,0
+CLM000056,Medicare,80053,Lab Panel,1926,23,True,True,False,False,True,11.9,True,Coding Error,0,35
+CLM000057,Cigna,99214,Complex Visit,1647,46,False,True,True,True,False,12.8,False,,0,55
+CLM000058,Cigna,99213,Office Visit,1496,43,True,True,True,True,False,8.6,False,,0,25
+CLM000059,UnitedHealth,93000,EKG,1981,43,True,True,False,True,False,5.2,False,,0,45
+CLM000060,Cigna,93000,EKG,1730,13,False,True,False,True,True,41.3,False,,0,50
+CLM000061,Cigna,29881,Surgery,32683,20,True,True,True,True,True,9.2,True,Duplicate,1,0
+CLM000062,Aetna,29881,Surgery,46688,44,True,False,True,False,False,18.0,True,Out of Network,1,65
+CLM000063,Medicare,27447,Knee Replace,37114,6,True,True,True,True,True,3.8,False,,1,0
+CLM000064,Aetna,80053,Lab Panel,1604,3,True,True,True,True,True,10.7,False,,0,0
+CLM000065,Aetna,27447,Knee Replace,27282,46,True,False,True,True,False,17.7,False,,1,50
+CLM000066,Medicaid,29881,Surgery,17546,42,False,False,True,True,False,19.4,False,,1,80
+CLM000067,Medicaid,99213,Office Visit,811,52,True,False,True,True,False,36.2,False,,0,50
+CLM000068,Medicaid,27447,Knee Replace,28169,9,True,True,True,False,True,40.3,True,Coverage Lapsed,1,15
+CLM000069,Medicaid,93000,EKG,325,58,False,False,False,False,False,12.4,True,Prior Auth,0,115
+CLM000070,Medicaid,27447,Knee Replace,28120,50,False,True,True,True,False,29.8,True,Coverage Lapsed,1,55
+CLM000071,Medicaid,71020,X-Ray,1942,16,True,False,True,True,True,22.9,True,Duplicate,0,25
+CLM000072,UnitedHealth,93000,EKG,1152,25,True,True,True,True,True,17.2,False,,0,0
+CLM000073,Medicaid,99223,Hospital,11275,22,True,True,True,False,True,23.4,False,,1,15
+CLM000074,Medicare,27447,Knee Replace,21584,25,False,True,True,False,True,23.1,False,,1,45
+CLM000075,Medicare,99213,Office Visit,1973,20,False,False,True,True,True,6.7,False,,0,55
+CLM000076,Cigna,29881,Surgery,20691,28,True,False,True,True,True,18.0,False,,1,25
+CLM000077,Cigna,99213,Office Visit,1745,54,False,True,True,True,False,37.0,False,,0,55
+CLM000078,Cigna,99223,Hospital,6504,6,True,False,False,True,True,13.3,False,,0,45
+CLM000079,Medicaid,29881,Surgery,31404,17,True,False,True,True,True,17.4,False,,1,25
+CLM000080,Cigna,93000,EKG,1999,49,True,False,True,True,False,11.2,False,,0,50
+CLM000081,Cigna,80053,Lab Panel,569,2,False,True,True,False,True,32.0,False,,0,45
+CLM000082,Medicaid,99213,Office Visit,780,49,True,True,True,True,False,22.7,False,,0,25
+CLM000083,BlueCross,71020,X-Ray,1719,16,True,True,False,True,True,35.4,True,Prior Auth,0,20
+CLM000084,Cigna,99214,Complex Visit,154,11,True,False,True,True,True,13.1,True,Not Necessary,0,25
+CLM000085,Aetna,80053,Lab Panel,127,26,True,True,True,False,True,44.7,False,,0,15
+CLM000086,Medicaid,71020,X-Ray,761,55,True,True,True,True,False,40.3,False,,0,25
+CLM000087,Medicaid,99214,Complex Visit,1904,43,True,True,False,False,False,34.7,True,Coding Error,0,60
+CLM000088,BlueCross,93000,EKG,1962,28,True,False,True,True,True,20.7,True,Coding Error,0,25
+CLM000089,Medicaid,27447,Knee Replace,19510,40,True,False,True,True,False,7.6,False,,1,50
+CLM000090,Medicare,27447,Knee Replace,31588,21,False,False,False,True,True,26.8,True,Out of Network,1,75
+CLM000091,BlueCross,80053,Lab Panel,629,22,False,True,True,False,True,20.6,True,Missing Info,0,45
+CLM000092,Cigna,93000,EKG,1411,52,True,False,True,True,False,13.5,False,,0,50
+CLM000093,UnitedHealth,93000,EKG,1849,34,True,True,False,True,False,26.8,True,Out of Network,0,45
+CLM000094,BlueCross,71020,X-Ray,497,45,False,False,False,True,False,5.7,True,Coverage Lapsed,0,100
+CLM000095,Medicaid,27447,Knee Replace,41161,15,False,True,True,True,True,11.2,False,,1,30
+CLM000096,Cigna,71020,X-Ray,1111,28,True,True,True,True,True,5.1,False,,0,0
+CLM000097,Medicaid,93000,EKG,816,17,True,False,True,True,True,1.6,True,Out of Network,0,25
+CLM000098,BlueCross,71020,X-Ray,1792,13,True,True,False,True,True,8.0,True,Out of Network,0,20
+CLM000099,Medicaid,27447,Knee Replace,33798,19,True,True,True,True,True,29.0,False,,1,0
+CLM000100,Aetna,93000,EKG,789,18,True,True,True,True,True,30.6,False,,0,0
+CLM000101,BlueCross,99213,Office Visit,293,56,True,True,True,True,False,15.9,True,Missing Info,0,25
+CLM000102,Medicare,80053,Lab Panel,429,12,False,False,True,True,True,23.6,False,,0,55
+CLM000103,BlueCross,80053,Lab Panel,590,32,False,True,True,False,False,14.5,True,Not Necessary,0,70
+CLM000104,Medicare,99213,Office Visit,631,6,True,True,False,True,True,23.9,False,,0,20
+CLM000105,Aetna,99214,Complex Visit,560,29,False,True,False,False,True,14.0,True,Coverage Lapsed,0,65
+CLM000106,UnitedHealth,29881,Surgery,31839,49,True,True,False,True,False,28.7,True,Out of Network,1,45
+CLM000107,Medicaid,71020,X-Ray,1980,12,True,True,True,True,True,16.3,False,,0,0
+CLM000108,Medicare,99214,Complex Visit,1231,45,True,True,True,False,False,43.3,False,,0,40
+CLM000109,Medicare,27447,Knee Replace,48775,46,True,True,True,True,False,7.5,True,Duplicate,1,25
+CLM000110,Medicaid,27447,Knee Replace,40939,28,True,True,True,True,True,19.6,False,,1,0
+CLM000111,BlueCross,71020,X-Ray,410,4,True,True,True,True,True,16.4,False,,0,0
+CLM000112,Aetna,80053,Lab Panel,1766,45,True,False,True,False,False,32.7,True,Duplicate,0,65
+CLM000113,Medicaid,29881,Surgery,25548,39,True,False,True,True,False,49.4,True,Missing Info,1,50
+CLM000114,Cigna,93000,EKG,1132,44,True,True,True,True,False,23.6,False,,0,25
+CLM000115,Medicare,99213,Office Visit,736,34,True,True,True,False,False,18.4,False,,0,40
+CLM000116,Medicaid,27447,Knee Replace,42600,41,True,True,False,False,False,43.4,True,Coverage Lapsed,1,60
+CLM000117,BlueCross,27447,Knee Replace,34946,43,True,False,True,True,False,10.8,True,Not Necessary,1,50
+CLM000118,Aetna,93000,EKG,1708,53,False,False,True,False,False,20.2,True,Missing Info,0,95
+CLM000119,Cigna,99214,Complex Visit,1472,50,True,True,True,True,False,8.7,True,Timely Filing,0,25
+CLM000120,Medicare,99213,Office Visit,756,34,False,False,True,True,False,29.1,True,Coding Error,0,80
+CLM000121,Medicare,27447,Knee Replace,48154,36,False,True,True,True,False,26.8,True,Prior Auth,1,55
+CLM000122,UnitedHealth,27447,Knee Replace,45524,46,False,True,True,True,False,35.5,True,Prior Auth,1,55
+CLM000123,UnitedHealth,99213,Office Visit,1194,30,False,True,True,True,True,3.2,False,,0,30
+CLM000124,BlueCross,99223,Hospital,9508,27,False,True,False,True,True,45.1,True,Coverage Lapsed,0,50
+CLM000125,Cigna,71020,X-Ray,1625,59,False,True,True,True,False,51.3,True,Prior Auth,0,55
+CLM000126,BlueCross,80053,Lab Panel,1501,53,False,True,False,True,False,5.2,True,Missing Info,0,75
+CLM000127,UnitedHealth,80053,Lab Panel,1046,23,False,True,True,False,True,28.9,False,,0,45
+CLM000128,UnitedHealth,29881,Surgery,15458,37,False,True,True,True,False,6.8,True,Timely Filing,1,55
+CLM000129,Aetna,29881,Surgery,17987,25,True,True,True,False,True,17.0,False,,1,15
+CLM000130,Medicaid,99223,Hospital,7099,56,False,True,True,True,False,15.8,True,Not Necessary,0,55
+CLM000131,Cigna,99214,Complex Visit,1173,56,False,True,True,False,False,63.4,True,Prior Auth,0,70
+CLM000132,BlueCross,27447,Knee Replace,20433,42,True,True,False,False,False,22.9,True,Not Necessary,1,60
+CLM000133,UnitedHealth,29881,Surgery,37539,40,True,False,False,True,False,14.2,True,Not Necessary,1,70
+CLM000134,Aetna,80053,Lab Panel,151,49,True,True,True,True,False,13.6,True,Not Necessary,0,25
+CLM000135,Cigna,99223,Hospital,12999,51,True,True,True,True,False,32.0,True,Missing Info,1,25
+CLM000136,UnitedHealth,93000,EKG,1472,34,True,False,True,True,False,19.2,True,Timely Filing,0,50
+CLM000137,Medicare,99223,Hospital,7931,40,True,True,True,False,False,2.2,True,Out of Network,0,40
+CLM000138,Cigna,99223,Hospital,7594,17,True,False,True,False,True,51.6,True,Missing Info,0,40
+CLM000139,Cigna,80053,Lab Panel,1148,38,True,True,True,True,False,9.0,False,,0,25
+CLM000140,UnitedHealth,29881,Surgery,15786,25,True,False,True,True,True,9.6,True,Coverage Lapsed,1,25
+CLM000141,BlueCross,71020,X-Ray,1686,45,False,True,False,True,False,36.8,True,Duplicate,0,75
+CLM000142,BlueCross,29881,Surgery,47000,59,True,True,False,True,False,31.1,False,,1,45
+CLM000143,Medicare,27447,Knee Replace,44040,15,True,True,False,True,True,16.0,True,Out of Network,1,20
+CLM000144,Medicare,80053,Lab Panel,1837,51,True,True,True,True,False,34.5,True,Coverage Lapsed,0,25
+CLM000145,BlueCross,93000,EKG,1502,48,True,True,True,True,False,2.2,True,Timely Filing,0,25
+CLM000146,Aetna,71020,X-Ray,775,54,True,True,False,True,False,21.3,False,,0,45
+CLM000147,Aetna,80053,Lab Panel,1879,30,False,True,True,True,True,2.8,False,,0,30
+CLM000148,BlueCross,99223,Hospital,10968,6,True,False,False,True,True,5.3,False,,1,45
+CLM000149,Cigna,99213,Office Visit,1041,44,True,True,True,True,False,32.7,False,,0,25
+CLM000150,Medicaid,80053,Lab Panel,1419,31,False,True,True,True,False,24.3,False,,0,55
+CLM000151,BlueCross,93000,EKG,359,42,True,True,True,True,False,44.3,False,,0,25
+CLM000152,Cigna,99214,Complex Visit,1491,32,True,True,True,True,False,10.5,True,Not Necessary,0,25
+CLM000153,BlueCross,71020,X-Ray,1029,43,True,False,True,True,False,25.3,False,,0,50
+CLM000154,Medicaid,29881,Surgery,25407,40,True,False,True,False,False,14.1,True,Timely Filing,1,65
+CLM000155,UnitedHealth,99213,Office Visit,1674,16,True,True,True,False,True,26.2,True,Coding Error,0,15
+CLM000156,BlueCross,93000,EKG,1422,13,True,True,True,True,True,25.6,False,,0,0
+CLM000157,BlueCross,27447,Knee Replace,42675,4,True,True,False,True,True,15.2,True,Coding Error,1,20
+CLM000158,Aetna,99223,Hospital,5244,38,True,True,False,True,False,17.3,False,,0,45
+CLM000159,Aetna,71020,X-Ray,766,18,True,True,False,True,True,21.4,False,,0,20
+CLM000160,Aetna,99223,Hospital,14840,9,True,True,True,True,True,7.4,False,,1,0
+CLM000161,BlueCross,93000,EKG,773,17,True,True,True,True,True,11.7,True,Missing Info,0,0
+CLM000162,Aetna,29881,Surgery,49570,50,True,True,True,False,False,4.2,False,,1,40
+CLM000163,UnitedHealth,99214,Complex Visit,1594,47,False,True,False,True,False,20.7,True,Duplicate,0,75
+CLM000164,Cigna,99213,Office Visit,1265,44,True,False,True,False,False,21.9,True,Not Necessary,0,65
+CLM000165,Cigna,27447,Knee Replace,22717,5,True,True,True,True,True,29.1,False,,1,0
+CLM000166,Aetna,80053,Lab Panel,1779,30,True,False,False,True,True,20.2,True,Timely Filing,0,45
+CLM000167,BlueCross,99214,Complex Visit,1650,27,True,False,True,True,True,13.4,False,,0,25
+CLM000168,UnitedHealth,27447,Knee Replace,18202,28,False,False,True,True,True,11.7,False,,1,55
+CLM000169,UnitedHealth,80053,Lab Panel,1738,6,True,True,True,True,True,18.2,False,,0,0
+CLM000170,BlueCross,99214,Complex Visit,808,36,False,True,True,True,False,36.7,True,Missing Info,0,55
+CLM000171,Medicare,93000,EKG,1398,56,True,False,True,False,False,6.1,True,Missing Info,0,65
+CLM000172,UnitedHealth,80053,Lab Panel,1769,10,True,True,False,True,True,5.3,False,,0,20
+CLM000173,Medicaid,27447,Knee Replace,44295,8,True,True,True,True,True,17.4,False,,1,0
+CLM000174,UnitedHealth,71020,X-Ray,1773,2,False,True,False,True,True,40.4,True,Prior Auth,0,50
+CLM000175,UnitedHealth,80053,Lab Panel,1654,56,True,True,True,True,False,10.2,False,,0,25
+CLM000176,Aetna,29881,Surgery,49341,48,True,True,True,True,False,14.4,False,,1,25
+CLM000177,Medicare,71020,X-Ray,303,11,False,False,True,True,True,4.7,False,,0,55
+CLM000178,UnitedHealth,80053,Lab Panel,1870,11,True,True,True,True,True,17.5,False,,0,0
+CLM000179,Medicare,99213,Office Visit,1445,32,True,True,True,False,False,38.0,True,Coverage Lapsed,0,40
+CLM000180,Cigna,80053,Lab Panel,1755,8,True,True,True,False,True,27.1,True,Duplicate,0,15
+CLM000181,Medicaid,27447,Knee Replace,26326,39,True,True,True,False,False,9.8,True,Missing Info,1,40
+CLM000182,BlueCross,71020,X-Ray,1994,19,True,True,True,True,True,42.4,False,,0,0
+CLM000183,UnitedHealth,99214,Complex Visit,519,9,True,False,True,True,True,11.4,False,,0,25
+CLM000184,Cigna,71020,X-Ray,387,28,True,True,True,True,True,35.2,False,,0,0
+CLM000185,BlueCross,27447,Knee Replace,24597,37,True,True,False,False,False,20.1,True,Timely Filing,1,60
+CLM000186,Medicaid,29881,Surgery,16089,21,True,True,True,True,True,11.8,False,,1,0
+CLM000187,Aetna,27447,Knee Replace,21493,16,True,True,True,True,True,11.4,False,,1,0
+CLM000188,Cigna,29881,Surgery,36917,15,True,False,True,True,True,19.3,True,Coding Error,1,25
+CLM000189,Aetna,99214,Complex Visit,337,47,True,True,True,True,False,34.7,True,Prior Auth,0,25
+CLM000190,Aetna,99214,Complex Visit,1205,39,True,True,True,True,False,17.6,True,Prior Auth,0,25
+CLM000191,Medicaid,99214,Complex Visit,237,44,True,False,True,False,False,16.5,True,Coding Error,0,65
+CLM000192,Medicaid,93000,EKG,1734,29,True,False,True,False,True,12.7,True,Duplicate,0,40
+CLM000193,UnitedHealth,99213,Office Visit,1974,29,True,True,True,False,True,5.9,False,,0,15
+CLM000194,BlueCross,99213,Office Visit,118,40,True,True,True,True,False,23.0,True,Timely Filing,0,25
+CLM000195,Cigna,99213,Office Visit,249,33,False,True,True,False,False,17.3,False,,0,70
+CLM000196,Aetna,99213,Office Visit,480,33,False,True,True,True,False,7.0,True,Prior Auth,0,55
+CLM000197,BlueCross,71020,X-Ray,1878,24,False,False,False,True,True,5.7,True,Coding Error,0,75
+CLM000198,UnitedHealth,29881,Surgery,43060,51,False,True,False,True,False,21.4,True,Coding Error,1,75
+CLM000199,BlueCross,93000,EKG,1322,47,True,False,True,True,False,32.5,True,Prior Auth,0,50
+CLM000200,UnitedHealth,99214,Complex Visit,403,9,True,True,True,False,True,27.4,False,,0,15
+CLM000201,Medicare,99214,Complex Visit,1046,43,True,False,True,True,False,16.7,False,,0,50
+CLM000202,Medicaid,99214,Complex Visit,1335,20,False,True,True,True,True,30.9,True,Prior Auth,0,30
+CLM000203,Aetna,93000,EKG,978,10,False,True,True,True,True,15.6,True,Not Necessary,0,30
+CLM000204,UnitedHealth,99214,Complex Visit,804,39,True,True,False,True,False,42.8,True,Timely Filing,0,45
+CLM000205,Aetna,99223,Hospital,13734,27,True,True,True,True,True,59.4,False,,1,0
+CLM000206,UnitedHealth,71020,X-Ray,500,35,False,True,True,True,False,7.8,False,,0,55
+CLM000207,Aetna,80053,Lab Panel,1827,30,False,True,True,False,True,25.1,True,Duplicate,0,45
+CLM000208,Cigna,29881,Surgery,45476,56,True,True,False,True,False,30.6,True,Duplicate,1,45
+CLM000209,BlueCross,27447,Knee Replace,28687,19,True,True,False,True,True,16.4,False,,1,20
+CLM000210,BlueCross,99223,Hospital,6308,54,True,False,False,True,False,11.2,True,Timely Filing,0,70
+CLM000211,BlueCross,71020,X-Ray,1087,4,False,True,True,False,True,16.1,False,,0,45
+CLM000212,Cigna,93000,EKG,1442,15,True,False,True,True,True,27.1,False,,0,25
+CLM000213,BlueCross,93000,EKG,1630,3,True,True,True,True,True,35.6,False,,0,0
+CLM000214,UnitedHealth,27447,Knee Replace,16998,58,True,False,True,True,False,23.2,True,Not Necessary,1,50
+CLM000215,BlueCross,80053,Lab Panel,1063,8,True,True,False,False,True,7.5,False,,0,35
+CLM000216,UnitedHealth,71020,X-Ray,1079,27,True,True,True,True,True,29.7,False,,0,0
+CLM000217,Medicaid,27447,Knee Replace,39663,41,True,True,True,True,False,21.0,False,,1,25
+CLM000218,Medicare,71020,X-Ray,436,40,True,True,True,True,False,11.2,False,,0,25
+CLM000219,UnitedHealth,71020,X-Ray,1184,5,False,True,True,True,True,41.4,True,Missing Info,0,30
+CLM000220,Cigna,27447,Knee Replace,38060,48,True,False,True,True,False,28.8,False,,1,50
+CLM000221,BlueCross,93000,EKG,191,50,True,True,True,True,False,16.1,False,,0,25
+CLM000222,Medicare,93000,EKG,1503,53,True,True,True,True,False,26.0,False,,0,25
+CLM000223,Medicaid,99223,Hospital,12622,5,False,False,True,True,True,5.8,True,Coverage Lapsed,1,55
+CLM000224,BlueCross,80053,Lab Panel,110,21,True,True,True,True,True,22.5,False,,0,0
+CLM000225,UnitedHealth,29881,Surgery,30704,19,False,True,True,True,True,6.4,False,,1,30
+CLM000226,UnitedHealth,99213,Office Visit,1369,28,True,True,True,True,True,25.3,False,,0,0
+CLM000227,Cigna,27447,Knee Replace,31771,45,False,True,True,False,False,16.0,True,Coverage Lapsed,1,70
+CLM000228,UnitedHealth,80053,Lab Panel,1113,39,True,False,True,False,False,3.6,False,,0,65
+CLM000229,Aetna,80053,Lab Panel,134,43,True,True,True,True,False,26.5,True,Duplicate,0,25
+CLM000230,UnitedHealth,27447,Knee Replace,47705,29,False,True,True,True,True,22.7,True,Missing Info,1,30
+CLM000231,Medicaid,93000,EKG,683,43,False,True,True,True,False,17.0,False,,0,55
+CLM000232,Medicaid,29881,Surgery,24541,55,True,True,True,True,False,23.4,True,Coverage Lapsed,1,25
+CLM000233,BlueCross,99223,Hospital,10251,25,True,True,True,True,True,15.3,False,,1,0
+CLM000234,Medicare,99213,Office Visit,1018,29,True,False,True,True,True,10.5,False,,0,25
+CLM000235,BlueCross,99223,Hospital,11016,16,True,False,True,True,True,20.2,False,,1,25
+CLM000236,BlueCross,99213,Office Visit,880,59,True,False,False,False,False,24.4,True,Not Necessary,0,85
+CLM000237,UnitedHealth,80053,Lab Panel,622,45,False,True,False,True,False,17.0,True,Coverage Lapsed,0,75
+CLM000238,Aetna,99214,Complex Visit,958,58,True,True,True,True,False,8.1,True,Coverage Lapsed,0,25
+CLM000239,BlueCross,93000,EKG,281,58,True,True,False,True,False,7.1,True,Duplicate,0,45
+CLM000240,Aetna,99223,Hospital,8909,51,True,True,True,True,False,35.7,False,,0,25
+CLM000241,Aetna,71020,X-Ray,868,30,False,True,True,True,True,13.5,True,Prior Auth,0,30
+CLM000242,Medicare,99214,Complex Visit,297,34,True,True,True,False,False,47.0,True,Timely Filing,0,40
+CLM000243,Cigna,99214,Complex Visit,1798,30,True,True,True,False,True,33.4,True,Coding Error,0,15
+CLM000244,Aetna,99223,Hospital,10190,54,True,False,False,True,False,13.0,False,,1,70
+CLM000245,BlueCross,99223,Hospital,11508,60,True,True,True,True,False,36.1,False,,1,25
+CLM000246,Medicaid,71020,X-Ray,1357,13,True,True,True,True,True,7.0,False,,0,0
+CLM000247,Medicaid,80053,Lab Panel,1919,33,True,True,False,True,False,49.0,True,Prior Auth,0,45
+CLM000248,Medicare,99223,Hospital,9503,53,True,True,False,True,False,18.0,False,,0,45
+CLM000249,BlueCross,99214,Complex Visit,545,40,True,True,True,False,False,6.4,False,,0,40
+CLM000250,Medicaid,99213,Office Visit,1284,16,False,True,True,False,True,31.5,False,,0,45
+CLM000251,Medicaid,29881,Surgery,39806,11,True,False,True,True,True,30.1,True,Coverage Lapsed,1,25
+CLM000252,Cigna,27447,Knee Replace,47793,21,False,True,True,True,True,12.1,False,,1,30
+CLM000253,Medicaid,93000,EKG,1079,33,True,False,True,True,False,3.9,True,Not Necessary,0,50
+CLM000254,UnitedHealth,71020,X-Ray,1868,16,False,True,True,False,True,20.4,False,,0,45
+CLM000255,Aetna,99214,Complex Visit,1631,16,True,True,True,False,True,36.6,True,Prior Auth,0,15
+CLM000256,UnitedHealth,93000,EKG,1420,32,True,True,True,False,False,15.0,True,Duplicate,0,40
+CLM000257,Cigna,99213,Office Visit,1737,16,True,False,False,False,True,10.2,True,Out of Network,0,60
+CLM000258,Medicare,93000,EKG,1054,39,True,True,True,False,False,16.4,True,Coverage Lapsed,0,40
+CLM000259,UnitedHealth,99213,Office Visit,356,47,True,False,True,True,False,7.0,True,Coding Error,0,50
+CLM000260,Cigna,93000,EKG,1061,24,True,False,True,True,True,17.0,False,,0,25
+CLM000261,Medicare,80053,Lab Panel,1335,49,True,False,False,False,False,12.4,True,Duplicate,0,85
+CLM000262,Medicare,99214,Complex Visit,1420,51,True,True,True,True,False,20.4,True,Coding Error,0,25
+CLM000263,Medicare,93000,EKG,291,33,True,True,False,False,False,13.4,False,,0,60
+CLM000264,BlueCross,99213,Office Visit,1268,34,True,True,True,False,False,8.9,True,Coverage Lapsed,0,40
+CLM000265,Aetna,99223,Hospital,13866,40,True,True,True,False,False,51.4,False,,1,40
+CLM000266,Medicaid,80053,Lab Panel,1493,31,True,False,False,True,False,6.9,True,Missing Info,0,70
+CLM000267,UnitedHealth,93000,EKG,593,51,True,False,False,True,False,15.4,True,Missing Info,0,70
+CLM000268,Medicare,27447,Knee Replace,23442,11,True,True,True,False,True,10.3,False,,1,15
+CLM000269,Medicare,29881,Surgery,44552,13,True,True,True,True,True,25.3,False,,1,0
+CLM000270,BlueCross,27447,Knee Replace,31660,45,True,False,True,False,False,22.7,False,,1,65
+CLM000271,Aetna,29881,Surgery,48436,36,False,True,True,True,False,42.2,False,,1,55
+CLM000272,UnitedHealth,27447,Knee Replace,16344,59,False,True,True,False,False,12.9,False,,1,70
+CLM000273,Medicare,93000,EKG,1309,13,True,True,False,False,True,10.6,False,,0,35
+CLM000274,Aetna,80053,Lab Panel,1073,46,True,True,True,True,False,14.9,True,Out of Network,0,25
+CLM000275,Medicaid,27447,Knee Replace,17493,19,True,False,True,True,True,6.5,False,,1,25
+CLM000276,BlueCross,29881,Surgery,38147,3,False,True,True,True,True,15.0,False,,1,30
+CLM000277,UnitedHealth,99214,Complex Visit,603,14,True,False,True,False,True,17.8,True,Out of Network,0,40
+CLM000278,Medicare,80053,Lab Panel,1268,16,True,True,True,True,True,18.6,False,,0,0
+CLM000279,BlueCross,71020,X-Ray,1617,22,True,True,True,False,True,23.9,False,,0,15
+CLM000280,Medicaid,27447,Knee Replace,19483,27,True,True,True,True,True,26.0,False,,1,0
+CLM000281,Medicaid,27447,Knee Replace,30379,19,False,True,True,True,True,23.9,True,Missing Info,1,30
+CLM000282,BlueCross,71020,X-Ray,1785,60,True,True,True,True,False,4.3,False,,0,25
+CLM000283,BlueCross,29881,Surgery,47162,1,False,True,True,True,True,34.8,False,,1,30
+CLM000284,UnitedHealth,99214,Complex Visit,1575,57,True,True,True,False,False,6.7,False,,0,40
+CLM000285,Aetna,27447,Knee Replace,16511,11,True,True,True,True,True,17.2,False,,1,0
+CLM000286,Medicaid,27447,Knee Replace,32704,51,True,True,True,True,False,19.5,False,,1,25
+CLM000287,UnitedHealth,71020,X-Ray,665,6,True,False,True,True,True,35.6,False,,0,25
+CLM000288,Cigna,99214,Complex Visit,404,60,True,True,True,True,False,15.2,False,,0,25
+CLM000289,Aetna,99213,Office Visit,288,49,True,False,True,False,False,37.6,False,,0,65
+CLM000290,UnitedHealth,93000,EKG,1270,45,True,True,True,True,False,17.9,True,Out of Network,0,25
+CLM000291,BlueCross,99214,Complex Visit,1545,44,False,True,True,False,False,7.6,False,,0,70
+CLM000292,Medicare,80053,Lab Panel,1993,15,True,True,True,True,True,20.3,False,,0,0
+CLM000293,Aetna,27447,Knee Replace,28703,27,True,False,False,True,True,46.0,True,Coverage Lapsed,1,45
+CLM000294,Medicare,71020,X-Ray,1608,34,True,True,False,False,False,25.5,True,Coding Error,0,60
+CLM000295,BlueCross,99214,Complex Visit,1201,11,True,True,False,True,True,27.6,False,,0,20
+CLM000296,UnitedHealth,27447,Knee Replace,24443,6,True,True,False,False,True,12.2,True,Coverage Lapsed,1,35
+CLM000297,BlueCross,27447,Knee Replace,42471,36,True,False,True,True,False,24.9,True,Coverage Lapsed,1,50
+CLM000298,Medicaid,80053,Lab Panel,723,48,True,False,True,True,False,9.9,False,,0,50
+CLM000299,Aetna,99214,Complex Visit,1996,35,True,False,True,True,False,17.0,False,,0,50
+CLM000300,BlueCross,99214,Complex Visit,324,12,False,True,True,False,True,34.6,False,,0,45
+CLM000301,Aetna,29881,Surgery,21456,25,True,False,True,False,True,8.1,False,,1,40
+CLM000302,BlueCross,99223,Hospital,7730,34,True,True,True,False,False,14.8,True,Prior Auth,0,40
+CLM000303,Medicaid,71020,X-Ray,1625,44,True,True,True,False,False,22.3,False,,0,40
+CLM000304,Medicaid,29881,Surgery,32376,23,False,True,True,False,True,13.3,False,,1,45
+CLM000305,Aetna,80053,Lab Panel,357,40,True,True,True,False,False,24.9,True,Missing Info,0,40
+CLM000306,Aetna,71020,X-Ray,636,29,True,True,False,True,True,17.4,True,Missing Info,0,20
+CLM000307,Aetna,99213,Office Visit,1542,49,False,False,True,True,False,18.2,False,,0,80
+CLM000308,BlueCross,99223,Hospital,6392,37,True,True,False,True,False,30.5,True,Coding Error,0,45
+CLM000309,Aetna,80053,Lab Panel,1361,18,True,True,True,True,True,6.3,False,,0,0
+CLM000310,BlueCross,99223,Hospital,7601,42,False,False,True,True,False,26.5,True,Timely Filing,0,80
+CLM000311,Medicare,93000,EKG,1946,25,False,False,True,True,True,30.8,True,Prior Auth,0,55
+CLM000312,Medicare,27447,Knee Replace,23783,52,True,True,True,True,False,10.6,False,,1,25
+CLM000313,Cigna,99213,Office Visit,1473,25,False,False,False,True,True,47.7,True,Out of Network,0,75
+CLM000314,UnitedHealth,71020,X-Ray,1020,6,True,True,True,True,True,44.8,False,,0,0
+CLM000315,Medicare,71020,X-Ray,1136,56,True,True,True,True,False,32.3,True,Not Necessary,0,25
+CLM000316,Aetna,71020,X-Ray,1593,59,False,True,True,True,False,22.9,False,,0,55
+CLM000317,BlueCross,71020,X-Ray,1086,45,True,True,True,True,False,14.0,False,,0,25
+CLM000318,Medicare,71020,X-Ray,1566,50,False,True,False,True,False,24.4,True,Duplicate,0,75
+CLM000319,Cigna,27447,Knee Replace,32423,33,True,True,True,True,False,7.5,False,,1,25
+CLM000320,Cigna,27447,Knee Replace,48756,24,True,False,True,True,True,39.9,False,,1,25
+CLM000321,UnitedHealth,29881,Surgery,37210,17,True,True,True,True,True,16.3,False,,1,0
+CLM000322,Medicare,29881,Surgery,39356,15,True,True,True,True,True,12.3,False,,1,0
+CLM000323,Cigna,71020,X-Ray,1968,47,False,True,True,False,False,15.8,True,Coverage Lapsed,0,70
+CLM000324,Cigna,99223,Hospital,6521,12,True,True,True,False,True,15.8,False,,0,15
+CLM000325,Medicare,99213,Office Visit,1059,27,True,True,True,True,True,18.7,False,,0,0
+CLM000326,Aetna,71020,X-Ray,415,33,True,True,True,True,False,25.0,False,,0,25
+CLM000327,Cigna,93000,EKG,1102,1,True,False,True,True,True,19.4,False,,0,25
+CLM000328,Medicare,29881,Surgery,33927,35,True,True,False,True,False,27.2,True,Duplicate,1,45
+CLM000329,BlueCross,29881,Surgery,27522,16,True,True,True,True,True,3.1,False,,1,0
+CLM000330,Aetna,80053,Lab Panel,1669,24,True,True,True,True,True,34.7,False,,0,0
+CLM000331,Cigna,27447,Knee Replace,41208,42,True,True,True,True,False,22.2,False,,1,25
+CLM000332,Medicaid,99213,Office Visit,1960,36,True,False,True,False,False,30.5,True,Coverage Lapsed,0,65
+CLM000333,BlueCross,99213,Office Visit,232,42,True,True,True,False,False,11.3,True,Coding Error,0,40
+CLM000334,Medicare,99214,Complex Visit,1321,18,True,True,True,False,True,41.4,True,Missing Info,0,15
+CLM000335,BlueCross,80053,Lab Panel,677,14,True,True,True,True,True,15.7,False,,0,0
+CLM000336,Medicare,99223,Hospital,14071,37,False,True,True,True,False,33.7,True,Out of Network,1,55
+CLM000337,Medicare,29881,Surgery,45259,33,True,False,True,True,False,18.2,True,Coding Error,1,50
+CLM000338,BlueCross,99214,Complex Visit,179,39,False,True,True,True,False,18.3,True,Timely Filing,0,55
+CLM000339,UnitedHealth,99213,Office Visit,1830,23,True,False,True,True,True,17.9,False,,0,25
+CLM000340,Medicare,29881,Surgery,18940,6,False,True,False,False,True,16.6,True,Duplicate,1,65
+CLM000341,Aetna,99214,Complex Visit,990,46,True,True,True,False,False,30.8,False,,0,40
+CLM000342,Medicaid,99223,Hospital,5481,6,False,True,True,True,True,24.5,False,,0,30
+CLM000343,BlueCross,80053,Lab Panel,452,9,False,True,True,True,True,24.0,False,,0,30
+CLM000344,BlueCross,99223,Hospital,14954,7,False,False,False,False,True,14.2,True,Missing Info,1,90
+CLM000345,BlueCross,93000,EKG,318,19,True,True,True,True,True,16.9,False,,0,0
+CLM000346,Cigna,29881,Surgery,35012,44,True,True,False,True,False,41.9,False,,1,45
+CLM000347,Cigna,99223,Hospital,11019,32,True,True,True,True,False,5.8,False,,1,25
+CLM000348,Aetna,99214,Complex Visit,1435,20,True,False,True,False,True,10.2,False,,0,40
+CLM000349,Cigna,99214,Complex Visit,1339,39,True,True,True,False,False,12.0,False,,0,40
+CLM000350,Medicare,71020,X-Ray,234,1,False,True,True,True,True,28.4,True,Timely Filing,0,30
+CLM000351,UnitedHealth,29881,Surgery,24688,53,True,False,True,False,False,30.1,True,Prior Auth,1,65
+CLM000352,UnitedHealth,93000,EKG,493,26,True,False,True,True,True,15.6,True,Coding Error,0,25
+CLM000353,UnitedHealth,27447,Knee Replace,18780,53,True,True,True,True,False,36.1,True,Timely Filing,1,25
+CLM000354,UnitedHealth,99214,Complex Visit,1870,47,True,True,False,True,False,10.6,True,Coverage Lapsed,0,45
+CLM000355,Medicaid,71020,X-Ray,1064,44,False,True,True,False,False,12.9,True,Coverage Lapsed,0,70
+CLM000356,Aetna,80053,Lab Panel,621,51,True,True,True,False,False,11.1,False,,0,40
+CLM000357,Cigna,99214,Complex Visit,1255,35,False,False,False,False,False,33.6,True,Timely Filing,0,115
+CLM000358,Medicare,99213,Office Visit,1309,43,True,True,True,True,False,23.4,False,,0,25
+CLM000359,Medicaid,93000,EKG,966,49,True,True,False,False,False,10.0,True,Coding Error,0,60
+CLM000360,Cigna,99214,Complex Visit,252,33,True,True,True,True,False,25.1,False,,0,25
+CLM000361,Medicaid,71020,X-Ray,1227,50,False,True,True,False,False,16.4,True,Prior Auth,0,70
+CLM000362,UnitedHealth,99213,Office Visit,1814,59,False,True,True,False,False,23.2,True,Not Necessary,0,70
+CLM000363,BlueCross,99223,Hospital,7950,51,True,True,True,False,False,55.8,False,,0,40
+CLM000364,Aetna,27447,Knee Replace,27010,47,True,False,True,False,False,20.4,True,Coverage Lapsed,1,65
+CLM000365,UnitedHealth,99214,Complex Visit,1378,55,True,True,True,True,False,12.6,False,,0,25
+CLM000366,UnitedHealth,99214,Complex Visit,1662,36,True,True,False,True,False,4.0,False,,0,45
+CLM000367,Aetna,93000,EKG,1440,41,False,False,True,False,False,5.2,True,Prior Auth,0,95
+CLM000368,Aetna,29881,Surgery,46153,29,False,True,False,True,True,9.7,False,,1,50
+CLM000369,Medicare,29881,Surgery,26921,18,False,True,True,True,True,20.2,False,,1,30
+CLM000370,Medicaid,99214,Complex Visit,792,13,True,True,True,True,True,46.0,True,Coverage Lapsed,0,0
+CLM000371,BlueCross,80053,Lab Panel,1060,40,False,True,False,False,False,14.8,True,Timely Filing,0,90
+CLM000372,Medicare,99214,Complex Visit,404,53,True,True,True,True,False,3.6,False,,0,25
+CLM000373,Medicaid,80053,Lab Panel,696,16,True,True,True,True,True,16.0,False,,0,0
+CLM000374,UnitedHealth,99214,Complex Visit,1926,27,True,True,True,False,True,7.9,True,Prior Auth,0,15
+CLM000375,Medicare,29881,Surgery,34379,36,False,True,True,True,False,35.6,True,Prior Auth,1,55
+CLM000376,Cigna,80053,Lab Panel,592,40,True,True,True,False,False,8.5,True,Missing Info,0,40
+CLM000377,UnitedHealth,99213,Office Visit,1202,36,False,True,True,False,False,22.6,True,Coverage Lapsed,0,70
+CLM000378,Cigna,27447,Knee Replace,49784,6,False,False,True,True,True,16.6,True,Missing Info,1,55
+CLM000379,Aetna,80053,Lab Panel,850,11,True,True,True,True,True,20.8,False,,0,0
+CLM000380,Cigna,27447,Knee Replace,46830,35,True,True,True,True,False,12.9,False,,1,25
+CLM000381,BlueCross,27447,Knee Replace,19368,20,True,False,True,True,True,8.4,True,Missing Info,1,25
+CLM000382,Cigna,80053,Lab Panel,979,50,True,True,True,True,False,15.8,False,,0,25
+CLM000383,Aetna,71020,X-Ray,642,51,True,False,True,True,False,31.1,True,Out of Network,0,50
+CLM000384,Aetna,99213,Office Visit,1196,21,True,True,False,True,True,35.5,False,,0,20
+CLM000385,Medicaid,80053,Lab Panel,480,9,True,True,False,True,True,34.0,False,,0,20
+CLM000386,Cigna,99213,Office Visit,951,10,True,True,True,True,True,11.8,False,,0,0
+CLM000387,Medicaid,93000,EKG,355,37,True,False,True,True,False,10.8,True,Duplicate,0,50
+CLM000388,Medicaid,29881,Surgery,48510,26,False,False,True,True,True,14.6,False,,1,55
+CLM000389,Medicare,80053,Lab Panel,1684,38,True,False,True,True,False,25.4,False,,0,50
+CLM000390,BlueCross,99214,Complex Visit,1555,14,False,True,True,False,True,15.0,True,Timely Filing,0,45
+CLM000391,Aetna,27447,Knee Replace,29264,36,True,True,True,True,False,21.5,False,,1,25
+CLM000392,Medicare,99223,Hospital,14476,7,False,True,True,True,True,12.0,True,Coverage Lapsed,1,30
+CLM000393,BlueCross,99214,Complex Visit,1051,28,True,False,True,True,True,26.4,False,,0,25
+CLM000394,Aetna,99223,Hospital,7952,42,True,True,True,True,False,14.6,False,,0,25
+CLM000395,UnitedHealth,80053,Lab Panel,1821,26,True,True,True,True,True,19.1,False,,0,0
+CLM000396,Medicaid,80053,Lab Panel,1246,1,True,False,True,True,True,21.3,False,,0,25
+CLM000397,Aetna,27447,Knee Replace,30727,34,True,True,False,True,False,26.2,True,Coverage Lapsed,1,45
+CLM000398,BlueCross,99213,Office Visit,1456,31,True,True,True,True,False,18.7,True,Not Necessary,0,25
+CLM000399,Aetna,29881,Surgery,42137,24,True,True,True,True,True,53.3,False,,1,0
+CLM000400,UnitedHealth,99223,Hospital,5543,34,False,True,True,True,False,21.2,False,,0,55
+CLM000401,Medicare,99213,Office Visit,219,41,True,False,True,True,False,23.4,True,Prior Auth,0,50
+CLM000402,Cigna,27447,Knee Replace,24463,49,True,True,True,True,False,24.8,False,,1,25
+CLM000403,BlueCross,29881,Surgery,46848,16,True,False,True,True,True,11.2,False,,1,25
+CLM000404,UnitedHealth,99214,Complex Visit,1437,14,True,True,True,True,True,38.5,False,,0,0
+CLM000405,Medicare,71020,X-Ray,1545,32,False,True,True,True,False,13.8,False,,0,55
+CLM000406,Cigna,99214,Complex Visit,1323,34,True,False,False,True,False,28.0,True,Missing Info,0,70
+CLM000407,UnitedHealth,93000,EKG,969,24,True,False,False,False,True,25.6,False,,0,60
+CLM000408,Medicare,99223,Hospital,9165,1,False,True,True,True,True,6.0,False,,0,30
+CLM000409,UnitedHealth,71020,X-Ray,1772,41,True,True,True,True,False,18.2,True,Timely Filing,0,25
+CLM000410,Cigna,29881,Surgery,37807,20,True,True,True,True,True,29.9,False,,1,0
+CLM000411,BlueCross,71020,X-Ray,478,20,True,True,True,True,True,7.6,False,,0,0
+CLM000412,Medicaid,29881,Surgery,33055,60,True,True,True,True,False,9.3,True,Timely Filing,1,25
+CLM000413,BlueCross,27447,Knee Replace,29477,1,True,True,True,True,True,5.6,True,Prior Auth,1,0
+CLM000414,Medicaid,99213,Office Visit,981,11,True,False,True,True,True,41.5,False,,0,25
+CLM000415,UnitedHealth,99223,Hospital,10212,52,True,True,True,True,False,14.4,True,Timely Filing,1,25
+CLM000416,UnitedHealth,99214,Complex Visit,1568,33,True,True,True,False,False,1.7,True,Coding Error,0,40
+CLM000417,BlueCross,27447,Knee Replace,37626,50,True,True,True,True,False,21.7,True,Not Necessary,1,25
+CLM000418,Medicare,99214,Complex Visit,224,16,True,True,True,True,True,13.4,False,,0,0
+CLM000419,BlueCross,27447,Knee Replace,17024,60,True,False,True,True,False,24.0,True,Missing Info,1,50
+CLM000420,Medicare,29881,Surgery,21854,59,True,True,True,False,False,29.1,True,Coding Error,1,40
+CLM000421,UnitedHealth,99214,Complex Visit,1641,12,True,True,False,True,True,3.7,False,,0,20
+CLM000422,Aetna,99213,Office Visit,1843,50,False,True,True,True,False,27.1,True,Duplicate,0,55
+CLM000423,UnitedHealth,99214,Complex Visit,379,19,False,True,True,True,True,7.9,True,Duplicate,0,30
+CLM000424,Medicaid,71020,X-Ray,1051,50,False,True,False,False,False,11.4,True,Out of Network,0,90
+CLM000425,Medicaid,71020,X-Ray,1138,15,True,True,True,True,True,12.3,False,,0,0
+CLM000426,Medicare,93000,EKG,194,55,True,True,True,False,False,20.9,True,Duplicate,0,40
+CLM000427,BlueCross,71020,X-Ray,1907,10,True,False,True,True,True,16.7,False,,0,25
+CLM000428,Medicaid,80053,Lab Panel,238,45,True,True,True,False,False,19.5,False,,0,40
+CLM000429,UnitedHealth,27447,Knee Replace,48029,41,True,True,False,True,False,15.4,True,Timely Filing,1,45
+CLM000430,BlueCross,99213,Office Visit,1006,17,False,True,True,True,True,6.5,True,Coding Error,0,30
+CLM000431,Cigna,93000,EKG,1173,5,True,False,True,True,True,11.4,False,,0,25
+CLM000432,Aetna,99223,Hospital,14261,29,True,True,True,True,True,36.0,False,,1,0
+CLM000433,Cigna,93000,EKG,1484,50,False,True,False,True,False,21.2,True,Out of Network,0,75
+CLM000434,Cigna,80053,Lab Panel,325,11,False,True,True,True,True,16.1,False,,0,30
+CLM000435,Medicaid,80053,Lab Panel,1906,6,True,True,True,True,True,2.8,False,,0,0
+CLM000436,Medicaid,71020,X-Ray,781,44,True,False,False,True,False,14.7,True,Duplicate,0,70
+CLM000437,UnitedHealth,99223,Hospital,10059,7,True,False,True,True,True,10.9,False,,1,25
+CLM000438,Cigna,99214,Complex Visit,1205,54,True,True,True,True,False,13.4,True,Out of Network,0,25
+CLM000439,Aetna,71020,X-Ray,770,59,False,True,True,True,False,39.1,True,Not Necessary,0,55
+CLM000440,BlueCross,99214,Complex Visit,1223,58,True,False,True,True,False,16.9,True,Coding Error,0,50
+CLM000441,BlueCross,99213,Office Visit,231,53,False,True,True,False,False,14.6,False,,0,70
+CLM000442,Medicaid,29881,Surgery,26626,12,False,True,True,False,True,25.5,False,,1,45
+CLM000443,UnitedHealth,71020,X-Ray,1124,57,True,True,True,False,False,20.8,False,,0,40
+CLM000444,Aetna,99213,Office Visit,100,57,True,True,True,False,False,31.9,True,Coverage Lapsed,0,40
+CLM000445,BlueCross,99214,Complex Visit,102,13,True,False,True,False,True,5.4,True,Out of Network,0,40
+CLM000446,Medicaid,99213,Office Visit,675,23,False,True,True,False,True,22.3,True,Coding Error,0,45
+CLM000447,Cigna,80053,Lab Panel,1813,2,True,True,True,True,True,16.9,True,Duplicate,0,0
+CLM000448,BlueCross,27447,Knee Replace,34057,16,True,True,True,True,True,3.1,False,,1,0
+CLM000449,Medicaid,71020,X-Ray,180,23,True,True,True,False,True,20.3,False,,0,15
+CLM000450,Aetna,99223,Hospital,6025,46,True,True,True,True,False,50.2,False,,0,25
+CLM000451,Medicaid,93000,EKG,1424,12,True,True,True,True,True,15.6,False,,0,0
+CLM000452,Cigna,99213,Office Visit,1737,2,True,True,True,True,True,20.0,False,,0,0
+CLM000453,Medicare,27447,Knee Replace,49248,52,True,True,False,True,False,18.3,False,,1,45
+CLM000454,Aetna,93000,EKG,1042,10,True,True,True,True,True,26.2,False,,0,0
+CLM000455,Medicare,99223,Hospital,5251,46,True,True,True,True,False,12.5,False,,0,25
+CLM000456,Medicaid,29881,Surgery,43599,9,True,True,True,True,True,14.3,False,,1,0
+CLM000457,Aetna,29881,Surgery,43000,15,False,True,True,True,True,24.8,True,Prior Auth,1,30
+CLM000458,Cigna,80053,Lab Panel,688,45,True,True,True,True,False,13.2,True,Timely Filing,0,25
+CLM000459,Medicare,99213,Office Visit,1287,41,True,True,False,True,False,27.3,True,Not Necessary,0,45
+CLM000460,Cigna,99223,Hospital,8529,21,True,True,True,True,True,7.7,True,Prior Auth,0,0
+CLM000461,Medicaid,99214,Complex Visit,1589,14,True,False,True,True,True,5.3,True,Out of Network,0,25
+CLM000462,Medicaid,99214,Complex Visit,810,4,True,True,True,True,True,7.3,False,,0,0
+CLM000463,Cigna,27447,Knee Replace,29641,57,False,True,True,False,False,34.5,True,Timely Filing,1,70
+CLM000464,UnitedHealth,29881,Surgery,49312,11,True,False,False,True,True,19.1,True,Coverage Lapsed,1,45
+CLM000465,BlueCross,99213,Office Visit,866,7,True,True,True,True,True,22.7,False,,0,0
+CLM000466,BlueCross,93000,EKG,602,36,True,False,True,True,False,56.8,False,,0,50
+CLM000467,BlueCross,93000,EKG,1940,39,False,True,True,True,False,16.8,True,Timely Filing,0,55
+CLM000468,Aetna,99213,Office Visit,1284,27,True,True,True,True,True,14.3,False,,0,0
+CLM000469,Medicaid,80053,Lab Panel,615,4,True,True,True,True,True,32.1,False,,0,0
+CLM000470,Cigna,27447,Knee Replace,38803,28,True,True,True,True,True,20.8,False,,1,0
+CLM000471,BlueCross,80053,Lab Panel,1919,14,False,True,True,True,True,17.0,False,,0,30
+CLM000472,Aetna,80053,Lab Panel,293,51,True,False,True,True,False,29.2,False,,0,50
+CLM000473,Cigna,27447,Knee Replace,30190,12,False,True,True,False,True,10.1,False,,1,45
+CLM000474,UnitedHealth,29881,Surgery,36465,17,True,True,True,True,True,9.9,False,,1,0
+CLM000475,Cigna,27447,Knee Replace,45711,10,True,True,True,True,True,10.6,True,Not Necessary,1,0
+CLM000476,BlueCross,93000,EKG,971,54,False,True,False,True,False,5.6,False,,0,75
+CLM000477,Cigna,29881,Surgery,44347,6,False,True,True,True,True,42.9,False,,1,30
+CLM000478,Cigna,99213,Office Visit,1502,11,True,True,True,True,True,21.4,False,,0,0
+CLM000479,Aetna,71020,X-Ray,1122,44,True,True,True,True,False,8.9,False,,0,25
+CLM000480,Cigna,71020,X-Ray,963,6,True,True,True,True,True,11.6,False,,0,0
+CLM000481,Cigna,29881,Surgery,37726,59,True,True,False,False,False,9.4,True,Missing Info,1,60
+CLM000482,Medicaid,29881,Surgery,32592,37,True,False,True,True,False,2.6,False,,1,50
+CLM000483,Medicare,99214,Complex Visit,878,57,True,True,True,True,False,21.8,True,Timely Filing,0,25
+CLM000484,UnitedHealth,29881,Surgery,21497,18,False,False,True,True,True,12.1,True,Timely Filing,1,55
+CLM000485,Aetna,29881,Surgery,25121,4,True,False,True,True,True,19.2,False,,1,25
+CLM000486,Medicaid,27447,Knee Replace,27382,53,True,True,True,True,False,5.0,False,,1,25
+CLM000487,UnitedHealth,80053,Lab Panel,720,9,True,False,True,True,True,25.4,True,Duplicate,0,25
+CLM000488,Medicaid,27447,Knee Replace,28745,13,True,True,True,True,True,27.6,False,,1,0
+CLM000489,Cigna,71020,X-Ray,1692,53,False,False,False,True,False,20.2,True,Missing Info,0,100
+CLM000490,Medicare,99223,Hospital,11736,9,True,True,False,False,True,47.7,True,Missing Info,1,35
+CLM000491,Aetna,71020,X-Ray,103,30,True,True,True,True,True,26.1,False,,0,0
+CLM000492,BlueCross,93000,EKG,136,33,True,True,True,False,False,42.4,True,Timely Filing,0,40
+CLM000493,Medicaid,99214,Complex Visit,522,39,True,True,True,False,False,34.2,True,Coverage Lapsed,0,40
+CLM000494,Aetna,27447,Knee Replace,23197,48,True,True,True,True,False,24.3,False,,1,25
+CLM000495,Medicaid,99214,Complex Visit,914,11,True,True,True,True,True,17.2,False,,0,0
+CLM000496,Medicare,71020,X-Ray,882,42,True,True,True,True,False,27.0,False,,0,25
+CLM000497,Cigna,99213,Office Visit,322,39,True,False,True,True,False,42.1,True,Missing Info,0,50
+CLM000498,Aetna,80053,Lab Panel,1801,55,True,True,True,False,False,25.8,False,,0,40
+CLM000499,UnitedHealth,27447,Knee Replace,17416,44,True,True,True,True,False,12.1,True,Timely Filing,1,25
+CLM000500,Medicare,99214,Complex Visit,118,20,True,True,False,True,True,21.7,False,,0,20
+CLM000501,Medicaid,99214,Complex Visit,1021,41,False,True,True,True,False,20.8,False,,0,55
+CLM000502,UnitedHealth,80053,Lab Panel,1776,34,True,True,True,True,False,37.4,False,,0,25
+CLM000503,Aetna,99213,Office Visit,486,42,False,True,True,True,False,11.7,False,,0,55
+CLM000504,Cigna,80053,Lab Panel,226,48,True,False,True,False,False,30.9,True,Missing Info,0,65
+CLM000505,Medicare,71020,X-Ray,1994,59,True,True,False,False,False,15.8,True,Coding Error,0,60
+CLM000506,Medicare,80053,Lab Panel,230,31,True,True,True,True,False,6.4,False,,0,25
+CLM000507,Aetna,80053,Lab Panel,115,23,True,True,True,True,True,15.7,False,,0,0
+CLM000508,Aetna,80053,Lab Panel,1568,38,False,True,True,True,False,33.5,False,,0,55
+CLM000509,UnitedHealth,27447,Knee Replace,33130,31,True,False,True,True,False,17.0,True,Out of Network,1,50
+CLM000510,Medicare,99214,Complex Visit,470,56,False,True,True,True,False,34.2,True,Prior Auth,0,55
+CLM000511,Aetna,71020,X-Ray,1342,10,True,False,False,False,True,12.2,True,Coding Error,0,60
+CLM000512,Medicaid,99223,Hospital,12163,21,True,False,True,True,True,37.0,True,Missing Info,1,25
+CLM000513,BlueCross,27447,Knee Replace,29869,32,True,True,True,True,False,13.1,False,,1,25
+CLM000514,BlueCross,99223,Hospital,8827,31,False,False,True,False,False,13.3,True,Timely Filing,0,95
+CLM000515,BlueCross,99213,Office Visit,601,49,True,True,True,True,False,37.0,True,Out of Network,0,25
+CLM000516,BlueCross,99213,Office Visit,1419,9,True,True,True,True,True,45.9,False,,0,0
+CLM000517,BlueCross,29881,Surgery,42230,20,True,True,True,True,True,32.8,True,Duplicate,1,0
+CLM000518,Cigna,93000,EKG,593,23,False,True,True,False,True,38.7,True,Out of Network,0,45
+CLM000519,Aetna,29881,Surgery,38339,14,True,True,True,True,True,19.8,False,,1,0
+CLM000520,Medicaid,99213,Office Visit,1705,25,True,True,True,True,True,18.3,False,,0,0
+CLM000521,Medicaid,80053,Lab Panel,720,4,True,True,True,True,True,17.4,False,,0,0
+CLM000522,Medicaid,99214,Complex Visit,176,36,False,False,True,True,False,15.4,True,Duplicate,0,80
+CLM000523,Cigna,99223,Hospital,11543,43,True,True,True,False,False,7.8,False,,1,40
+CLM000524,BlueCross,80053,Lab Panel,1277,19,True,False,True,True,True,19.7,False,,0,25
+CLM000525,BlueCross,99214,Complex Visit,1982,50,False,True,False,True,False,13.5,True,Duplicate,0,75
+CLM000526,Medicare,71020,X-Ray,1234,3,True,False,True,True,True,13.5,True,Coverage Lapsed,0,25
+CLM000527,Aetna,27447,Knee Replace,49847,43,True,True,True,True,False,18.2,False,,1,25
+CLM000528,BlueCross,99214,Complex Visit,201,47,False,True,True,True,False,17.8,False,,0,55
+CLM000529,Medicaid,99214,Complex Visit,417,17,True,True,True,True,True,24.8,False,,0,0
+CLM000530,Cigna,99213,Office Visit,396,24,True,True,True,True,True,42.1,False,,0,0
+CLM000531,Medicaid,93000,EKG,1368,1,False,True,True,True,True,19.3,False,,0,30
+CLM000532,Aetna,99223,Hospital,13028,57,True,True,True,True,False,43.5,True,Not Necessary,1,25
+CLM000533,UnitedHealth,93000,EKG,1187,30,True,True,True,False,True,54.2,False,,0,15
+CLM000534,UnitedHealth,29881,Surgery,16819,9,False,False,True,True,True,33.7,False,,1,55
+CLM000535,Medicaid,99213,Office Visit,1777,52,True,True,True,False,False,14.2,True,Coverage Lapsed,0,40
+CLM000536,Aetna,29881,Surgery,40809,59,True,True,True,False,False,13.0,False,,1,40
+CLM000537,Cigna,99214,Complex Visit,218,17,False,False,True,True,True,16.9,True,Coding Error,0,55
+CLM000538,BlueCross,71020,X-Ray,832,31,True,True,True,True,False,26.0,True,Coding Error,0,25
+CLM000539,Medicaid,29881,Surgery,18534,33,True,True,True,True,False,19.1,True,Coverage Lapsed,1,25
+CLM000540,Cigna,99223,Hospital,7993,22,True,False,True,True,True,14.6,False,,0,25
+CLM000541,UnitedHealth,99213,Office Visit,218,6,True,False,True,True,True,13.3,False,,0,25
+CLM000542,Cigna,27447,Knee Replace,20422,21,False,True,True,False,True,38.0,False,,1,45
+CLM000543,BlueCross,27447,Knee Replace,19800,3,True,True,True,False,True,23.3,False,,1,15
+CLM000544,Medicare,99213,Office Visit,1026,42,True,True,False,True,False,32.3,True,Coverage Lapsed,0,45
+CLM000545,UnitedHealth,93000,EKG,895,36,True,True,True,True,False,11.5,False,,0,25
+CLM000546,Medicare,27447,Knee Replace,45177,49,True,False,True,True,False,29.3,False,,1,50
+CLM000547,Medicaid,71020,X-Ray,805,36,True,True,True,True,False,12.1,False,,0,25
+CLM000548,Medicare,93000,EKG,1692,9,True,True,True,False,True,18.5,False,,0,15
+CLM000549,Medicaid,29881,Surgery,41685,13,True,True,False,True,True,29.0,False,,1,20
+CLM000550,BlueCross,29881,Surgery,37566,7,True,False,True,True,True,13.8,True,Timely Filing,1,25
+CLM000551,BlueCross,99214,Complex Visit,1184,32,False,False,False,True,False,36.0,True,Missing Info,0,100
+CLM000552,Medicare,99213,Office Visit,642,45,False,False,False,True,False,10.3,True,Prior Auth,0,100
+CLM000553,Medicaid,99223,Hospital,12977,33,True,False,False,True,False,22.4,False,,1,70
+CLM000554,Cigna,29881,Surgery,21129,19,True,True,True,True,True,11.8,False,,1,0
+CLM000555,Cigna,99223,Hospital,7632,54,True,False,False,True,False,9.9,True,Coding Error,0,70
+CLM000556,Medicaid,71020,X-Ray,388,44,True,True,False,True,False,27.3,False,,0,45
+CLM000557,UnitedHealth,99223,Hospital,5400,36,True,True,True,True,False,18.4,False,,0,25
+CLM000558,Cigna,29881,Surgery,31320,2,True,False,True,True,True,10.5,False,,1,25
+CLM000559,Cigna,99223,Hospital,14995,49,True,True,True,True,False,4.5,True,Prior Auth,1,25
+CLM000560,UnitedHealth,80053,Lab Panel,488,49,True,True,True,True,False,7.0,False,,0,25
+CLM000561,Medicare,99213,Office Visit,1052,48,True,False,True,True,False,20.1,False,,0,50
+CLM000562,Medicaid,29881,Surgery,20623,25,True,True,True,False,True,20.9,False,,1,15
+CLM000563,Cigna,93000,EKG,312,40,True,True,True,True,False,18.9,False,,0,25
+CLM000564,Cigna,71020,X-Ray,844,29,True,True,True,True,True,10.9,False,,0,0
+CLM000565,Aetna,99214,Complex Visit,1174,25,True,True,False,True,True,16.1,False,,0,20
+CLM000566,BlueCross,29881,Surgery,33365,38,True,True,True,True,False,19.9,False,,1,25
+CLM000567,UnitedHealth,99213,Office Visit,1368,10,True,False,True,True,True,5.3,True,Coding Error,0,25
+CLM000568,Medicare,99213,Office Visit,1711,5,True,False,False,True,True,4.5,True,Coding Error,0,45
+CLM000569,Medicare,71020,X-Ray,1930,27,True,True,False,True,True,18.6,False,,0,20
+CLM000570,Medicare,29881,Surgery,25915,43,True,True,True,True,False,31.6,False,,1,25
+CLM000571,UnitedHealth,93000,EKG,1685,36,True,True,True,False,False,11.5,True,Missing Info,0,40
+CLM000572,BlueCross,93000,EKG,275,3,False,True,False,True,True,10.3,True,Coding Error,0,50
+CLM000573,Cigna,99214,Complex Visit,1052,2,False,True,False,True,True,12.2,False,,0,50
+CLM000574,Medicare,93000,EKG,1197,58,False,False,True,True,False,11.6,True,Out of Network,0,80
+CLM000575,UnitedHealth,99214,Complex Visit,503,41,True,True,False,True,False,41.6,False,,0,45
+CLM000576,BlueCross,71020,X-Ray,1827,35,True,False,True,True,False,6.7,True,Timely Filing,0,50
+CLM000577,Medicaid,99214,Complex Visit,750,3,True,True,True,True,True,27.6,False,,0,0
+CLM000578,BlueCross,99214,Complex Visit,669,37,True,True,True,True,False,51.1,False,,0,25
+CLM000579,Aetna,80053,Lab Panel,1814,28,False,False,True,False,True,11.8,False,,0,70
+CLM000580,UnitedHealth,99213,Office Visit,1176,42,False,True,False,True,False,35.3,True,Not Necessary,0,75
+CLM000581,Medicaid,99213,Office Visit,1670,19,True,True,False,True,True,27.1,True,Duplicate,0,20
+CLM000582,Medicare,99214,Complex Visit,1963,53,True,False,True,False,False,8.4,True,Missing Info,0,65
+CLM000583,Cigna,99223,Hospital,11587,41,True,True,True,True,False,19.8,False,,1,25
+CLM000584,Aetna,80053,Lab Panel,1968,8,True,True,False,True,True,25.3,True,Missing Info,0,20
+CLM000585,BlueCross,29881,Surgery,16846,14,True,True,True,True,True,35.7,False,,1,0
+CLM000586,Cigna,99223,Hospital,10776,13,True,True,True,True,True,13.4,False,,1,0
+CLM000587,BlueCross,99223,Hospital,8625,19,True,False,False,True,True,31.2,True,Not Necessary,0,45
+CLM000588,UnitedHealth,99214,Complex Visit,1016,9,True,False,True,True,True,13.5,False,,0,25
+CLM000589,Medicaid,71020,X-Ray,830,58,True,True,False,True,False,5.2,False,,0,45
+CLM000590,Aetna,93000,EKG,1399,45,False,False,True,True,False,15.9,True,Prior Auth,0,80
+CLM000591,Medicare,93000,EKG,1347,21,True,False,True,True,True,7.5,False,,0,25
+CLM000592,Aetna,71020,X-Ray,321,44,False,True,True,True,False,22.7,True,Coding Error,0,55
+CLM000593,Cigna,27447,Knee Replace,34273,36,False,True,True,False,False,21.2,True,Not Necessary,1,70
+CLM000594,Aetna,99214,Complex Visit,585,17,True,True,False,True,True,31.0,False,,0,20
+CLM000595,Medicaid,99214,Complex Visit,233,53,True,True,False,True,False,3.8,True,Timely Filing,0,45
+CLM000596,Medicare,71020,X-Ray,896,42,True,True,False,False,False,13.4,True,Prior Auth,0,60
+CLM000597,UnitedHealth,29881,Surgery,40602,33,True,True,True,False,False,27.9,False,,1,40
+CLM000598,Medicare,99214,Complex Visit,1307,43,False,True,False,True,False,9.8,True,Out of Network,0,75
+CLM000599,Medicare,99223,Hospital,9284,37,True,False,True,True,False,13.2,True,Prior Auth,0,50
+CLM000600,Medicaid,27447,Knee Replace,44563,15,True,True,True,False,True,17.2,False,,1,15
+CLM000601,BlueCross,80053,Lab Panel,1019,34,True,True,True,True,False,12.7,True,Coding Error,0,25
+CLM000602,Cigna,27447,Knee Replace,24519,7,False,True,True,True,True,2.1,False,,1,30
+CLM000603,Medicaid,80053,Lab Panel,1630,24,True,True,True,False,True,7.1,False,,0,15
+CLM000604,Medicare,99214,Complex Visit,148,23,True,False,True,False,True,8.7,False,,0,40
+CLM000605,UnitedHealth,27447,Knee Replace,21341,29,False,True,False,True,True,37.4,True,Prior Auth,1,50
+CLM000606,Aetna,99214,Complex Visit,404,11,True,True,True,True,True,5.0,False,,0,0
+CLM000607,UnitedHealth,99214,Complex Visit,846,31,True,False,True,True,False,18.5,True,Coverage Lapsed,0,50
+CLM000608,Cigna,71020,X-Ray,1686,3,True,False,True,True,True,24.4,False,,0,25
+CLM000609,Aetna,99223,Hospital,9196,4,True,True,False,True,True,12.2,True,Prior Auth,0,20
+CLM000610,UnitedHealth,99223,Hospital,10832,14,False,True,True,True,True,15.4,False,,1,30
+CLM000611,Cigna,27447,Knee Replace,28918,39,False,True,True,False,False,46.7,True,Prior Auth,1,70
+CLM000612,Medicare,99223,Hospital,14042,39,True,True,True,False,False,26.2,False,,1,40
+CLM000613,Medicare,99214,Complex Visit,1630,7,True,False,True,True,True,15.5,True,Missing Info,0,25
+CLM000614,Aetna,29881,Surgery,30752,58,True,True,True,False,False,9.8,False,,1,40
+CLM000615,Medicare,99213,Office Visit,940,58,True,True,True,True,False,8.1,False,,0,25
+CLM000616,Medicare,99213,Office Visit,1630,45,False,False,True,True,False,16.8,True,Timely Filing,0,80
+CLM000617,Aetna,27447,Knee Replace,38789,28,False,True,False,True,True,45.5,True,Prior Auth,1,50
+CLM000618,UnitedHealth,27447,Knee Replace,46013,17,True,True,True,False,True,12.0,False,,1,15
+CLM000619,Aetna,99213,Office Visit,1377,25,True,True,False,True,True,18.5,True,Out of Network,0,20
+CLM000620,Medicaid,93000,EKG,1502,28,False,True,True,True,True,46.1,False,,0,30
+CLM000621,Medicaid,80053,Lab Panel,396,40,True,False,False,True,False,18.7,True,Duplicate,0,70
+CLM000622,Medicaid,29881,Surgery,31368,12,True,False,False,False,True,3.4,True,Coding Error,1,60
+CLM000623,Medicare,27447,Knee Replace,44770,50,True,True,False,True,False,25.5,True,Timely Filing,1,45
+CLM000624,Medicaid,99223,Hospital,13183,7,True,True,True,True,True,31.5,False,,1,0
+CLM000625,Aetna,29881,Surgery,19408,41,True,True,True,False,False,9.9,False,,1,40
+CLM000626,BlueCross,99214,Complex Visit,1396,6,True,False,False,False,True,2.0,True,Not Necessary,0,60
+CLM000627,UnitedHealth,71020,X-Ray,1415,47,True,True,False,True,False,36.3,True,Timely Filing,0,45
+CLM000628,Cigna,80053,Lab Panel,348,1,True,True,True,False,True,28.7,False,,0,15
+CLM000629,Aetna,80053,Lab Panel,1009,40,True,True,False,True,False,13.2,True,Prior Auth,0,45
+CLM000630,Medicaid,99213,Office Visit,591,6,True,True,True,True,True,20.3,False,,0,0
+CLM000631,UnitedHealth,29881,Surgery,25357,34,True,False,True,True,False,20.0,True,Missing Info,1,50
+CLM000632,Medicaid,99214,Complex Visit,1171,23,True,True,False,True,True,10.0,False,,0,20
+CLM000633,UnitedHealth,71020,X-Ray,1842,17,True,False,True,True,True,8.4,False,,0,25
+CLM000634,Aetna,29881,Surgery,39424,22,True,True,False,True,True,18.3,False,,1,20
+CLM000635,BlueCross,80053,Lab Panel,662,50,True,False,True,False,False,35.0,True,Out of Network,0,65
+CLM000636,UnitedHealth,27447,Knee Replace,40507,17,False,True,True,True,True,43.8,True,Not Necessary,1,30
+CLM000637,Cigna,71020,X-Ray,279,34,True,True,True,True,False,9.2,False,,0,25
+CLM000638,Medicare,99213,Office Visit,324,26,True,True,True,True,True,7.8,False,,0,0
+CLM000639,Medicaid,93000,EKG,1919,23,True,True,True,True,True,12.4,False,,0,0
+CLM000640,Aetna,80053,Lab Panel,1253,16,True,True,True,True,True,6.7,False,,0,0
+CLM000641,Medicaid,71020,X-Ray,436,54,True,True,True,True,False,16.1,False,,0,25
+CLM000642,Aetna,93000,EKG,1207,44,True,True,True,True,False,8.8,False,,0,25
+CLM000643,Medicaid,27447,Knee Replace,38876,40,True,True,True,True,False,11.3,False,,1,25
+CLM000644,UnitedHealth,27447,Knee Replace,39269,26,True,False,True,True,True,25.0,False,,1,25
+CLM000645,Aetna,99223,Hospital,11191,33,True,False,True,True,False,23.1,True,Coding Error,1,50
+CLM000646,Cigna,99223,Hospital,6255,21,False,True,False,False,True,55.9,True,Missing Info,0,65
+CLM000647,BlueCross,71020,X-Ray,300,40,False,True,True,True,False,18.9,False,,0,55
+CLM000648,UnitedHealth,99223,Hospital,5415,40,True,True,True,False,False,42.9,False,,0,40
+CLM000649,UnitedHealth,93000,EKG,1806,27,True,False,True,True,True,15.4,False,,0,25
+CLM000650,Medicaid,93000,EKG,985,12,True,False,True,False,True,32.2,False,,0,40
+CLM000651,Medicare,99223,Hospital,5209,36,True,True,True,True,False,14.5,False,,0,25
+CLM000652,Cigna,29881,Surgery,38648,52,True,True,True,False,False,40.9,False,,1,40
+CLM000653,BlueCross,99223,Hospital,7508,51,False,False,True,True,False,27.2,True,Coverage Lapsed,0,80
+CLM000654,UnitedHealth,80053,Lab Panel,744,4,True,False,True,True,True,6.3,False,,0,25
+CLM000655,Aetna,80053,Lab Panel,773,17,False,True,True,True,True,9.5,False,,0,30
+CLM000656,UnitedHealth,93000,EKG,1353,8,True,True,True,False,True,50.4,False,,0,15
+CLM000657,UnitedHealth,71020,X-Ray,1332,44,True,True,True,True,False,53.6,False,,0,25
+CLM000658,Medicare,27447,Knee Replace,19438,30,False,True,True,True,True,8.2,True,Prior Auth,1,30
+CLM000659,Aetna,93000,EKG,1149,11,False,False,True,True,True,28.3,False,,0,55
+CLM000660,UnitedHealth,71020,X-Ray,1126,39,True,True,True,True,False,24.4,True,Timely Filing,0,25
+CLM000661,UnitedHealth,27447,Knee Replace,20021,12,True,False,True,True,True,22.2,False,,1,25
+CLM000662,BlueCross,99223,Hospital,12551,11,True,True,True,True,True,30.4,False,,1,0
+CLM000663,Cigna,99214,Complex Visit,1674,2,True,True,True,True,True,8.0,False,,0,0
+CLM000664,Cigna,99214,Complex Visit,1944,6,True,True,False,True,True,30.7,False,,0,20
+CLM000665,Medicaid,29881,Surgery,35322,29,True,True,True,True,True,17.5,False,,1,0
+CLM000666,Medicaid,99223,Hospital,5220,43,True,True,True,True,False,9.0,False,,0,25
+CLM000667,UnitedHealth,93000,EKG,823,36,False,False,False,True,False,23.1,True,Coverage Lapsed,0,100
+CLM000668,Aetna,99223,Hospital,9425,59,False,False,False,True,False,15.6,True,Coding Error,0,100
+CLM000669,Cigna,71020,X-Ray,1669,27,True,False,True,True,True,29.1,False,,0,25
+CLM000670,UnitedHealth,99223,Hospital,10411,23,True,True,True,True,True,4.8,False,,1,0
+CLM000671,UnitedHealth,27447,Knee Replace,17085,1,True,False,True,True,True,31.1,False,,1,25
+CLM000672,Cigna,80053,Lab Panel,252,13,True,True,False,True,True,7.0,False,,0,20
+CLM000673,Cigna,29881,Surgery,16790,54,False,True,True,False,False,44.1,False,,1,70
+CLM000674,Cigna,71020,X-Ray,376,34,True,True,True,True,False,10.4,False,,0,25
+CLM000675,Medicare,80053,Lab Panel,1768,55,True,True,True,True,False,24.0,True,Not Necessary,0,25
+CLM000676,Aetna,99223,Hospital,6852,18,True,True,True,False,True,39.4,False,,0,15
+CLM000677,Medicaid,27447,Knee Replace,25381,4,True,True,True,True,True,3.9,False,,1,0
+CLM000678,Medicare,99213,Office Visit,1903,9,True,True,True,True,True,19.7,True,Coverage Lapsed,0,0
+CLM000679,Medicaid,99213,Office Visit,1373,32,True,True,True,True,False,4.2,True,Out of Network,0,25
+CLM000680,UnitedHealth,29881,Surgery,26738,45,True,False,True,False,False,16.5,True,Missing Info,1,65
+CLM000681,UnitedHealth,99214,Complex Visit,550,5,True,True,True,False,True,19.2,False,,0,15
+CLM000682,Medicare,27447,Knee Replace,17545,54,True,True,True,False,False,14.2,True,Missing Info,1,40
+CLM000683,BlueCross,71020,X-Ray,1761,13,False,False,True,True,True,10.5,False,,0,55
+CLM000684,Cigna,99214,Complex Visit,443,60,True,False,True,True,False,8.4,True,Coding Error,0,50
+CLM000685,Aetna,99213,Office Visit,1681,13,True,True,True,True,True,20.2,False,,0,0
+CLM000686,UnitedHealth,99213,Office Visit,890,21,True,True,True,False,True,1.2,True,Missing Info,0,15
+CLM000687,Aetna,80053,Lab Panel,1383,3,True,False,True,True,True,9.0,False,,0,25
+CLM000688,Medicare,27447,Knee Replace,46746,11,True,True,True,True,True,45.9,False,,1,0
+CLM000689,Cigna,99214,Complex Visit,1228,42,True,True,True,True,False,6.2,False,,0,25
+CLM000690,Aetna,99214,Complex Visit,499,36,True,False,True,True,False,38.2,False,,0,50
+CLM000691,Medicaid,93000,EKG,1178,23,False,True,True,False,True,20.7,True,Prior Auth,0,45
+CLM000692,UnitedHealth,99213,Office Visit,596,35,False,False,False,True,False,55.2,True,Coverage Lapsed,0,100
+CLM000693,Aetna,99223,Hospital,9962,56,True,True,True,True,False,37.9,False,,0,25
+CLM000694,Medicare,99223,Hospital,6744,53,True,True,True,True,False,9.2,False,,0,25
+CLM000695,UnitedHealth,93000,EKG,1090,47,False,True,False,False,False,17.2,True,Prior Auth,0,90
+CLM000696,BlueCross,93000,EKG,1792,13,True,True,True,False,True,30.5,False,,0,15
+CLM000697,Medicare,27447,Knee Replace,35024,42,True,True,True,False,False,15.4,True,Coding Error,1,40
+CLM000698,BlueCross,99214,Complex Visit,1154,56,True,True,True,True,False,2.5,True,Missing Info,0,25
+CLM000699,Aetna,99214,Complex Visit,426,37,False,True,True,True,False,4.7,False,,0,55
+CLM000700,Medicaid,29881,Surgery,15485,15,False,True,True,True,True,26.2,True,Not Necessary,1,30
+CLM000701,BlueCross,71020,X-Ray,392,24,False,True,True,True,True,12.4,False,,0,30
+CLM000702,Medicare,29881,Surgery,47610,34,True,True,False,True,False,28.4,False,,1,45
+CLM000703,BlueCross,99214,Complex Visit,586,7,True,True,True,True,True,14.4,False,,0,0
+CLM000704,Medicaid,71020,X-Ray,554,37,False,True,True,True,False,22.5,True,Prior Auth,0,55
+CLM000705,Medicare,29881,Surgery,49179,57,True,True,True,False,False,23.4,False,,1,40
+CLM000706,BlueCross,99223,Hospital,11916,43,True,False,False,True,False,14.8,True,Prior Auth,1,70
+CLM000707,Medicare,27447,Knee Replace,35127,55,True,True,False,True,False,28.3,False,,1,45
+CLM000708,UnitedHealth,29881,Surgery,41082,37,False,True,False,True,False,20.1,True,Out of Network,1,75
+CLM000709,Cigna,80053,Lab Panel,1827,1,True,False,True,False,True,40.8,True,Missing Info,0,40
+CLM000710,UnitedHealth,99213,Office Visit,1916,15,True,True,True,True,True,7.2,False,,0,0
+CLM000711,Aetna,93000,EKG,572,7,True,True,False,True,True,34.9,False,,0,20
+CLM000712,BlueCross,27447,Knee Replace,45003,24,True,True,True,True,True,10.5,False,,1,0
+CLM000713,Medicare,71020,X-Ray,730,37,True,True,True,True,False,45.8,True,Timely Filing,0,25
+CLM000714,Medicare,71020,X-Ray,1624,32,True,True,True,True,False,14.8,False,,0,25
+CLM000715,Medicaid,99214,Complex Visit,1896,6,True,True,False,False,True,31.1,False,,0,35
+CLM000716,BlueCross,93000,EKG,1387,56,True,False,True,True,False,27.1,False,,0,50
+CLM000717,Aetna,99213,Office Visit,1003,21,False,True,True,True,True,10.3,False,,0,30
+CLM000718,Medicare,99223,Hospital,6891,44,True,True,True,True,False,11.4,False,,0,25
+CLM000719,Medicaid,29881,Surgery,44034,19,False,True,True,False,True,10.6,False,,1,45
+CLM000720,Cigna,99223,Hospital,8629,37,True,True,True,False,False,18.7,False,,0,40
+CLM000721,Medicaid,99213,Office Visit,189,33,False,True,True,False,False,17.7,True,Timely Filing,0,70
+CLM000722,Medicaid,99223,Hospital,14420,32,True,False,False,True,False,36.3,True,Timely Filing,1,70
+CLM000723,Medicaid,71020,X-Ray,1134,50,True,True,True,True,False,16.1,False,,0,25
+CLM000724,Cigna,93000,EKG,937,24,True,True,True,False,True,13.3,False,,0,15
+CLM000725,UnitedHealth,71020,X-Ray,574,50,True,True,False,True,False,24.0,True,Duplicate,0,45
+CLM000726,Aetna,93000,EKG,1591,60,False,True,True,True,False,27.4,True,Out of Network,0,55
+CLM000727,Aetna,93000,EKG,587,16,True,True,True,True,True,11.9,False,,0,0
+CLM000728,Medicare,99223,Hospital,9352,20,True,True,True,True,True,12.7,False,,0,0
+CLM000729,Cigna,27447,Knee Replace,22687,14,True,True,True,True,True,19.6,True,Duplicate,1,0
+CLM000730,Medicare,27447,Knee Replace,40341,17,True,True,True,True,True,13.3,False,,1,0
+CLM000731,Aetna,99213,Office Visit,812,4,True,True,False,True,True,30.0,False,,0,20
+CLM000732,Cigna,99213,Office Visit,542,56,True,False,True,True,False,19.1,True,Not Necessary,0,50
+CLM000733,BlueCross,80053,Lab Panel,1383,58,False,True,True,True,False,31.8,False,,0,55
+CLM000734,UnitedHealth,27447,Knee Replace,31125,36,True,True,True,False,False,16.3,True,Missing Info,1,40
+CLM000735,BlueCross,71020,X-Ray,1122,48,True,True,True,False,False,25.0,True,Prior Auth,0,40
+CLM000736,BlueCross,93000,EKG,546,33,True,True,True,True,False,9.0,True,Duplicate,0,25
+CLM000737,BlueCross,80053,Lab Panel,558,15,False,True,False,True,True,30.4,True,Prior Auth,0,50
+CLM000738,UnitedHealth,29881,Surgery,45656,27,True,True,True,True,True,13.6,False,,1,0
+CLM000739,Aetna,99223,Hospital,5602,29,False,True,False,True,True,11.2,False,,0,50
+CLM000740,Medicare,99223,Hospital,6224,56,True,True,False,True,False,8.1,True,Prior Auth,0,45
+CLM000741,UnitedHealth,99223,Hospital,13212,21,False,True,False,True,True,9.5,False,,1,50
+CLM000742,BlueCross,99214,Complex Visit,420,49,True,True,True,True,False,37.1,False,,0,25
+CLM000743,UnitedHealth,29881,Surgery,46086,10,False,True,True,True,True,15.1,False,,1,30
+CLM000744,Aetna,99214,Complex Visit,1134,39,True,True,True,True,False,30.2,False,,0,25
+CLM000745,Medicare,71020,X-Ray,1613,6,True,True,True,True,True,19.7,False,,0,0
+CLM000746,Medicaid,27447,Knee Replace,28207,55,True,False,True,True,False,12.9,False,,1,50
+CLM000747,Cigna,27447,Knee Replace,27331,15,False,True,True,True,True,25.5,True,Missing Info,1,30
+CLM000748,Cigna,99213,Office Visit,1964,49,True,False,True,True,False,39.2,True,Out of Network,0,50
+CLM000749,BlueCross,99223,Hospital,6460,57,False,False,True,False,False,16.6,True,Out of Network,0,95
+CLM000750,Cigna,29881,Surgery,25979,40,True,False,True,False,False,3.5,False,,1,65
+CLM000751,Medicaid,99213,Office Visit,826,57,True,False,True,True,False,16.4,False,,0,50
+CLM000752,Aetna,29881,Surgery,36033,13,True,False,False,True,True,5.3,True,Duplicate,1,45
+CLM000753,Cigna,29881,Surgery,43032,28,True,True,True,True,True,11.2,False,,1,0
+CLM000754,UnitedHealth,99213,Office Visit,700,47,True,False,True,True,False,23.1,True,Not Necessary,0,50
+CLM000755,Aetna,99223,Hospital,6471,2,False,False,True,False,True,13.3,True,Prior Auth,0,70
+CLM000756,Cigna,71020,X-Ray,334,45,False,True,True,True,False,24.9,True,Prior Auth,0,55
+CLM000757,Medicaid,99214,Complex Visit,1508,6,True,True,True,True,True,29.3,False,,0,0
+CLM000758,Medicare,29881,Surgery,20818,3,True,False,False,False,True,12.7,True,Prior Auth,1,60
+CLM000759,UnitedHealth,99223,Hospital,14520,27,True,True,True,True,True,17.0,False,,1,0
+CLM000760,UnitedHealth,80053,Lab Panel,983,58,False,True,True,True,False,33.6,True,Prior Auth,0,55
+CLM000761,Aetna,99213,Office Visit,1926,55,True,True,True,False,False,7.5,True,Coverage Lapsed,0,40
+CLM000762,Medicare,99213,Office Visit,924,30,False,True,True,False,True,16.3,False,,0,45
+CLM000763,Cigna,27447,Knee Replace,40956,40,True,True,True,True,False,13.4,False,,1,25
+CLM000764,Medicaid,71020,X-Ray,1380,42,True,True,True,True,False,37.8,True,Coding Error,0,25
+CLM000765,BlueCross,99223,Hospital,12493,4,True,True,True,True,True,39.7,False,,1,0
+CLM000766,BlueCross,29881,Surgery,22561,30,True,True,True,True,True,11.8,False,,1,0
+CLM000767,Medicaid,93000,EKG,1443,24,True,True,True,True,True,1.2,True,Timely Filing,0,0
+CLM000768,BlueCross,29881,Surgery,16374,8,True,True,True,True,True,13.0,False,,1,0
+CLM000769,Medicaid,80053,Lab Panel,390,45,True,False,False,True,False,4.2,False,,0,70
+CLM000770,Aetna,99213,Office Visit,1189,28,True,True,True,True,True,30.1,False,,0,0
+CLM000771,Medicare,93000,EKG,722,34,True,True,True,False,False,32.8,False,,0,40
+CLM000772,Medicaid,27447,Knee Replace,26900,46,False,True,False,True,False,36.0,True,Duplicate,1,75
+CLM000773,Aetna,99213,Office Visit,917,48,True,True,True,True,False,14.8,True,Out of Network,0,25
+CLM000774,Medicare,29881,Surgery,22411,36,False,True,True,True,False,35.9,False,,1,55
+CLM000775,Medicaid,71020,X-Ray,927,51,True,True,True,True,False,20.8,True,Not Necessary,0,25
+CLM000776,UnitedHealth,80053,Lab Panel,1479,22,True,True,True,True,True,17.4,False,,0,0
+CLM000777,Cigna,99213,Office Visit,415,60,True,True,True,True,False,50.7,False,,0,25
+CLM000778,Medicaid,27447,Knee Replace,41677,10,False,True,True,False,True,5.4,False,,1,45
+CLM000779,Medicaid,27447,Knee Replace,32142,54,True,False,True,True,False,1.9,False,,1,50
+CLM000780,Medicare,80053,Lab Panel,452,52,True,True,True,True,False,21.2,True,Coding Error,0,25
+CLM000781,BlueCross,99223,Hospital,10581,41,True,True,True,False,False,25.8,True,Prior Auth,1,40
+CLM000782,Medicare,29881,Surgery,40799,46,True,True,True,True,False,20.7,True,Missing Info,1,25
+CLM000783,UnitedHealth,29881,Surgery,34348,29,True,False,True,True,True,10.3,False,,1,25
+CLM000784,UnitedHealth,71020,X-Ray,1266,51,True,True,True,True,False,27.6,True,Missing Info,0,25
+CLM000785,Aetna,99214,Complex Visit,1691,13,False,True,True,True,True,12.9,True,Coding Error,0,30
+CLM000786,Cigna,80053,Lab Panel,1195,14,True,True,True,True,True,34.3,True,Missing Info,0,0
+CLM000787,Cigna,29881,Surgery,30717,44,True,True,True,True,False,26.0,True,Not Necessary,1,25
+CLM000788,UnitedHealth,27447,Knee Replace,27837,2,True,True,False,True,True,22.4,False,,1,20
+CLM000789,Medicare,80053,Lab Panel,1241,19,True,True,True,True,True,5.6,False,,0,0
+CLM000790,UnitedHealth,93000,EKG,1539,11,False,True,True,True,True,12.6,False,,0,30
+CLM000791,UnitedHealth,99214,Complex Visit,1834,36,True,True,True,True,False,17.0,False,,0,25
+CLM000792,UnitedHealth,80053,Lab Panel,1162,11,True,True,False,True,True,8.5,False,,0,20
+CLM000793,BlueCross,80053,Lab Panel,1246,2,True,False,True,True,True,24.1,True,Coverage Lapsed,0,25
+CLM000794,Medicaid,99213,Office Visit,1205,28,True,False,True,True,True,8.2,False,,0,25
+CLM000795,Cigna,99223,Hospital,11235,53,False,True,True,True,False,17.4,False,,1,55
+CLM000796,Aetna,99214,Complex Visit,1385,7,False,True,True,False,True,10.7,True,Coverage Lapsed,0,45
+CLM000797,UnitedHealth,27447,Knee Replace,36581,56,False,True,True,True,False,18.1,False,,1,55
+CLM000798,Medicare,80053,Lab Panel,497,51,True,False,True,True,False,16.4,True,Coding Error,0,50
+CLM000799,Cigna,27447,Knee Replace,15735,23,True,True,True,True,True,20.0,False,,1,0
+CLM000800,Cigna,27447,Knee Replace,33842,33,True,True,True,True,False,12.4,False,,1,25
+CLM000801,BlueCross,29881,Surgery,41299,51,True,True,False,True,False,17.6,True,Duplicate,1,45
+CLM000802,Medicare,27447,Knee Replace,26626,36,False,False,True,True,False,25.1,True,Prior Auth,1,80
+CLM000803,Cigna,29881,Surgery,40849,51,True,True,True,False,False,19.5,False,,1,40
+CLM000804,Cigna,93000,EKG,1321,8,True,True,True,False,True,37.2,True,Coverage Lapsed,0,15
+CLM000805,UnitedHealth,99214,Complex Visit,1900,5,False,True,True,False,True,15.7,False,,0,45
+CLM000806,Medicare,99214,Complex Visit,944,6,False,True,True,True,True,7.5,False,,0,30
+CLM000807,Aetna,99223,Hospital,6680,35,True,True,True,False,False,12.9,False,,0,40
+CLM000808,UnitedHealth,29881,Surgery,20311,20,False,True,True,True,True,31.4,False,,1,30
+CLM000809,Medicare,80053,Lab Panel,1058,40,False,True,True,True,False,14.3,True,Timely Filing,0,55
+CLM000810,Aetna,80053,Lab Panel,1053,1,True,True,False,True,True,18.2,False,,0,20
+CLM000811,Medicaid,93000,EKG,968,28,True,True,True,True,True,15.9,False,,0,0
+CLM000812,Medicaid,29881,Surgery,45721,28,True,False,True,False,True,16.3,False,,1,40
+CLM000813,Medicare,71020,X-Ray,1073,36,True,False,True,True,False,25.6,True,Timely Filing,0,50
+CLM000814,UnitedHealth,29881,Surgery,19517,1,True,True,True,True,True,17.5,False,,1,0
+CLM000815,BlueCross,99213,Office Visit,732,6,True,False,True,True,True,49.6,False,,0,25
+CLM000816,Aetna,29881,Surgery,39838,30,False,False,False,True,True,23.1,True,Timely Filing,1,75
+CLM000817,Medicare,27447,Knee Replace,15764,28,False,True,True,True,True,30.7,False,,1,30
+CLM000818,Medicare,99213,Office Visit,151,27,False,True,False,True,True,7.7,True,Coding Error,0,50
+CLM000819,BlueCross,99213,Office Visit,839,45,False,True,True,False,False,31.8,False,,0,70
+CLM000820,BlueCross,99223,Hospital,14620,34,True,False,False,True,False,42.6,True,Not Necessary,1,70
+CLM000821,Aetna,27447,Knee Replace,35294,58,True,True,False,True,False,17.2,True,Coding Error,1,45
+CLM000822,Medicare,99213,Office Visit,1199,37,False,False,False,False,False,4.7,True,Coding Error,0,115
+CLM000823,Cigna,93000,EKG,701,45,True,True,True,True,False,7.2,False,,0,25
+CLM000824,Medicare,80053,Lab Panel,111,37,True,True,True,True,False,25.1,False,,0,25
+CLM000825,BlueCross,80053,Lab Panel,1416,9,True,True,True,True,True,10.4,False,,0,0
+CLM000826,Medicare,99214,Complex Visit,1957,18,True,True,True,True,True,28.3,False,,0,0
+CLM000827,UnitedHealth,99213,Office Visit,1420,43,True,True,False,True,False,12.0,True,Coverage Lapsed,0,45
+CLM000828,UnitedHealth,99223,Hospital,8469,52,True,True,True,True,False,11.8,False,,0,25
+CLM000829,Medicare,99213,Office Visit,749,54,True,True,True,True,False,43.8,True,Coverage Lapsed,0,25
+CLM000830,Cigna,29881,Surgery,15318,37,True,False,True,True,False,8.7,False,,1,50
+CLM000831,Medicaid,93000,EKG,364,11,True,True,True,True,True,29.5,False,,0,0
+CLM000832,Cigna,29881,Surgery,18235,25,False,True,True,True,True,11.5,False,,1,30
+CLM000833,Medicaid,29881,Surgery,30520,1,False,True,True,False,True,3.5,False,,1,45
+CLM000834,UnitedHealth,27447,Knee Replace,16808,7,False,True,False,True,True,33.3,True,Coding Error,1,50
+CLM000835,Cigna,80053,Lab Panel,709,17,True,True,True,True,True,10.5,False,,0,0
+CLM000836,Medicaid,29881,Surgery,23456,34,False,True,False,True,False,1.5,True,Coding Error,1,75
+CLM000837,Medicaid,99223,Hospital,5640,1,True,True,True,True,True,44.7,True,Timely Filing,0,0
+CLM000838,BlueCross,99214,Complex Visit,1703,17,False,True,True,True,True,29.4,True,Out of Network,0,30
+CLM000839,BlueCross,99213,Office Visit,478,39,True,True,False,True,False,11.1,True,Not Necessary,0,45
+CLM000840,Medicaid,99214,Complex Visit,553,58,True,True,True,True,False,32.6,False,,0,25
+CLM000841,BlueCross,99223,Hospital,8909,41,True,True,True,True,False,15.4,False,,0,25
+CLM000842,Cigna,80053,Lab Panel,1730,50,False,True,True,True,False,5.9,True,Not Necessary,0,55
+CLM000843,UnitedHealth,99213,Office Visit,1432,17,False,False,True,True,True,14.5,False,,0,55
+CLM000844,UnitedHealth,99223,Hospital,8040,40,False,True,True,True,False,10.3,False,,0,55
+CLM000845,Cigna,99223,Hospital,14873,14,False,True,True,False,True,2.3,True,Not Necessary,1,45
+CLM000846,Cigna,80053,Lab Panel,1528,37,True,True,True,True,False,39.8,False,,0,25
+CLM000847,Medicaid,80053,Lab Panel,1789,42,False,True,True,True,False,3.0,True,Missing Info,0,55
+CLM000848,BlueCross,29881,Surgery,32220,37,True,True,True,False,False,46.4,True,Missing Info,1,40
+CLM000849,Medicare,27447,Knee Replace,31239,35,False,False,True,True,False,7.1,True,Out of Network,1,80
+CLM000850,BlueCross,29881,Surgery,41871,22,False,True,False,True,True,16.2,False,,1,50
+CLM000851,Medicaid,80053,Lab Panel,970,35,False,True,True,True,False,22.5,True,Coding Error,0,55
+CLM000852,BlueCross,27447,Knee Replace,25242,25,True,True,True,True,True,12.7,False,,1,0
+CLM000853,Medicaid,71020,X-Ray,298,32,True,False,True,True,False,9.8,True,Not Necessary,0,50
+CLM000854,Medicaid,27447,Knee Replace,37734,2,True,True,True,True,True,27.8,False,,1,0
+CLM000855,Medicaid,71020,X-Ray,193,32,False,False,True,True,False,35.0,False,,0,80
+CLM000856,Medicare,27447,Knee Replace,36363,22,True,True,True,True,True,14.0,False,,1,0
+CLM000857,Medicaid,99213,Office Visit,1314,44,False,True,True,False,False,20.0,True,Prior Auth,0,70
+CLM000858,Medicaid,71020,X-Ray,1478,42,True,True,True,False,False,10.9,False,,0,40
+CLM000859,BlueCross,27447,Knee Replace,49386,12,True,True,True,True,True,39.1,False,,1,0
+CLM000860,Medicaid,99213,Office Visit,1432,54,True,True,True,True,False,17.6,False,,0,25
+CLM000861,Medicare,99214,Complex Visit,1318,5,True,True,True,True,True,14.4,False,,0,0
+CLM000862,Aetna,29881,Surgery,31725,44,True,False,True,True,False,13.3,True,Prior Auth,1,50
+CLM000863,UnitedHealth,71020,X-Ray,699,8,True,True,True,True,True,36.4,False,,0,0
+CLM000864,UnitedHealth,99223,Hospital,13908,29,False,True,True,True,True,24.3,False,,1,30
+CLM000865,Aetna,99213,Office Visit,564,50,True,True,False,False,False,15.5,True,Prior Auth,0,60
+CLM000866,BlueCross,27447,Knee Replace,46889,60,True,True,True,True,False,4.7,False,,1,25
+CLM000867,BlueCross,80053,Lab Panel,273,10,False,False,True,True,True,44.3,True,Duplicate,0,55
+CLM000868,Medicare,27447,Knee Replace,16995,39,False,True,True,True,False,21.2,True,Prior Auth,1,55
+CLM000869,Medicaid,27447,Knee Replace,27236,1,True,True,True,False,True,9.3,False,,1,15
+CLM000870,Medicare,71020,X-Ray,1382,40,True,True,False,True,False,43.3,False,,0,45
+CLM000871,UnitedHealth,71020,X-Ray,1731,13,False,True,True,True,True,20.4,False,,0,30
+CLM000872,BlueCross,99223,Hospital,10787,43,False,False,True,True,False,19.3,True,Missing Info,1,80
+CLM000873,BlueCross,93000,EKG,1520,22,True,True,True,True,True,23.9,False,,0,0
+CLM000874,Medicare,27447,Knee Replace,16169,11,True,True,True,True,True,4.7,False,,1,0
+CLM000875,BlueCross,27447,Knee Replace,32302,38,True,True,True,False,False,11.2,False,,1,40
+CLM000876,Medicare,93000,EKG,1832,50,False,True,True,True,False,20.6,False,,0,55
+CLM000877,BlueCross,93000,EKG,1228,56,True,True,True,False,False,29.8,False,,0,40
+CLM000878,Aetna,29881,Surgery,25228,4,True,True,True,False,True,2.2,False,,1,15
+CLM000879,Cigna,99223,Hospital,7656,24,True,False,True,False,True,26.4,False,,0,40
+CLM000880,Aetna,27447,Knee Replace,30850,22,True,True,True,True,True,17.6,False,,1,0
+CLM000881,Aetna,99213,Office Visit,276,55,True,True,True,True,False,37.9,False,,0,25
+CLM000882,Cigna,27447,Knee Replace,21901,57,False,True,True,True,False,46.6,False,,1,55
+CLM000883,UnitedHealth,99223,Hospital,11287,55,True,True,True,False,False,30.7,False,,1,40
+CLM000884,Medicare,27447,Knee Replace,20726,1,True,False,True,True,True,23.4,False,,1,25
+CLM000885,Medicaid,29881,Surgery,23526,38,True,True,True,False,False,15.2,True,Out of Network,1,40
+CLM000886,Medicare,99223,Hospital,11306,31,True,False,True,True,False,7.6,False,,1,50
+CLM000887,Medicaid,99213,Office Visit,1887,29,False,False,True,True,True,20.0,True,Coverage Lapsed,0,55
+CLM000888,Aetna,99214,Complex Visit,609,23,True,False,True,True,True,16.8,False,,0,25
+CLM000889,UnitedHealth,71020,X-Ray,153,11,True,True,True,True,True,49.8,False,,0,0
+CLM000890,Medicaid,27447,Knee Replace,37829,56,True,False,True,True,False,54.3,False,,1,50
+CLM000891,Medicaid,29881,Surgery,24437,56,True,True,True,True,False,14.3,False,,1,25
+CLM000892,Medicaid,99214,Complex Visit,1055,19,False,True,False,True,True,12.3,True,Timely Filing,0,50
+CLM000893,UnitedHealth,71020,X-Ray,668,57,True,True,True,True,False,17.2,True,Missing Info,0,25
+CLM000894,BlueCross,29881,Surgery,26977,24,True,False,False,True,True,17.6,False,,1,45
+CLM000895,UnitedHealth,99223,Hospital,13208,16,True,True,True,True,True,15.0,False,,1,0
+CLM000896,Medicare,99214,Complex Visit,1864,23,False,True,True,True,True,33.3,False,,0,30
+CLM000897,UnitedHealth,29881,Surgery,21088,23,True,True,True,True,True,48.1,False,,1,0
+CLM000898,Cigna,27447,Knee Replace,49867,29,True,False,False,True,True,35.6,False,,1,45
+CLM000899,Medicare,93000,EKG,1784,6,True,True,True,True,True,54.2,False,,0,0
+CLM000900,Cigna,99223,Hospital,5935,18,True,True,True,True,True,13.0,False,,0,0
+CLM000901,BlueCross,99223,Hospital,6625,19,False,True,True,True,True,11.0,True,Timely Filing,0,30
+CLM000902,Medicaid,99223,Hospital,5199,48,False,True,True,False,False,3.4,True,Missing Info,0,70
+CLM000903,UnitedHealth,71020,X-Ray,1464,27,True,True,True,True,True,42.6,False,,0,0
+CLM000904,Medicare,93000,EKG,500,30,True,False,False,False,True,36.6,True,Duplicate,0,60
+CLM000905,Medicare,99223,Hospital,13670,31,True,True,True,True,False,6.5,False,,1,25
+CLM000906,UnitedHealth,80053,Lab Panel,781,30,True,True,True,True,True,16.9,False,,0,0
+CLM000907,Aetna,99223,Hospital,13008,11,True,True,True,True,True,43.4,False,,1,0
+CLM000908,Aetna,99214,Complex Visit,981,29,True,True,False,True,True,22.2,False,,0,20
+CLM000909,UnitedHealth,93000,EKG,1299,43,True,True,False,True,False,7.3,False,,0,45
+CLM000910,UnitedHealth,93000,EKG,949,35,True,True,True,True,False,8.7,False,,0,25
+CLM000911,UnitedHealth,99214,Complex Visit,1449,30,True,False,True,True,True,34.5,True,Coding Error,0,25
+CLM000912,Aetna,99213,Office Visit,1935,49,True,True,True,True,False,40.8,False,,0,25
+CLM000913,Medicare,99223,Hospital,11734,58,False,True,True,False,False,36.6,True,Missing Info,1,70
+CLM000914,Aetna,99214,Complex Visit,1491,29,True,True,True,True,True,12.4,False,,0,0
+CLM000915,UnitedHealth,99214,Complex Visit,545,38,True,True,False,True,False,15.9,False,,0,45
+CLM000916,Medicare,71020,X-Ray,1668,35,True,True,True,True,False,5.5,True,Coverage Lapsed,0,25
+CLM000917,Medicaid,99214,Complex Visit,1282,39,False,True,True,True,False,8.5,True,Missing Info,0,55
+CLM000918,Medicaid,93000,EKG,1899,25,False,True,True,True,True,11.7,False,,0,30
+CLM000919,UnitedHealth,99213,Office Visit,266,29,True,True,True,True,True,33.5,False,,0,0
+CLM000920,Medicare,99214,Complex Visit,1715,19,True,False,True,False,True,23.6,False,,0,40
+CLM000921,Aetna,29881,Surgery,15593,10,False,True,False,True,True,6.7,False,,1,50
+CLM000922,Aetna,80053,Lab Panel,1663,6,False,True,True,False,True,28.8,True,Missing Info,0,45
+CLM000923,Cigna,80053,Lab Panel,1400,46,False,True,False,False,False,45.3,True,Prior Auth,0,90
+CLM000924,Aetna,99223,Hospital,6723,3,False,True,False,False,True,48.1,True,Duplicate,0,65
+CLM000925,Medicare,80053,Lab Panel,238,51,False,False,True,True,False,17.9,False,,0,80
+CLM000926,BlueCross,99223,Hospital,10018,42,True,True,True,True,False,13.6,False,,1,25
+CLM000927,Medicaid,80053,Lab Panel,269,2,False,True,True,True,True,19.0,False,,0,30
+CLM000928,BlueCross,80053,Lab Panel,292,38,False,True,False,True,False,9.7,True,Coverage Lapsed,0,75
+CLM000929,Medicare,29881,Surgery,23248,33,True,False,True,True,False,10.8,True,Missing Info,1,50
+CLM000930,UnitedHealth,99223,Hospital,6608,57,True,True,True,False,False,33.8,False,,0,40
+CLM000931,Medicaid,99223,Hospital,14361,24,True,True,True,True,True,20.7,False,,1,0
+CLM000932,Cigna,93000,EKG,1036,33,True,True,True,True,False,18.6,False,,0,25
+CLM000933,Aetna,99223,Hospital,8332,56,True,True,False,True,False,27.8,True,Coding Error,0,45
+CLM000934,Medicaid,80053,Lab Panel,734,53,True,True,True,True,False,29.3,True,Prior Auth,0,25
+CLM000935,BlueCross,99223,Hospital,5351,22,True,True,True,False,True,6.6,False,,0,15
+CLM000936,Aetna,99214,Complex Visit,1934,54,True,True,False,True,False,49.1,False,,0,45
+CLM000937,Aetna,99214,Complex Visit,491,53,False,False,True,True,False,9.9,True,Prior Auth,0,80
+CLM000938,BlueCross,27447,Knee Replace,34730,53,True,True,True,True,False,15.9,False,,1,25
+CLM000939,Cigna,93000,EKG,1473,15,True,True,True,True,True,23.0,False,,0,0
+CLM000940,Aetna,99223,Hospital,14437,9,True,True,True,True,True,27.5,False,,1,0
+CLM000941,BlueCross,29881,Surgery,38061,49,True,True,True,False,False,13.2,False,,1,40
+CLM000942,Cigna,99213,Office Visit,1624,31,True,True,True,True,False,12.1,True,Not Necessary,0,25
+CLM000943,UnitedHealth,99213,Office Visit,814,51,True,True,True,True,False,13.4,True,Not Necessary,0,25
+CLM000944,Medicare,71020,X-Ray,879,6,True,True,True,True,True,16.9,False,,0,0
+CLM000945,Aetna,80053,Lab Panel,305,33,True,True,True,True,False,19.1,False,,0,25
+CLM000946,Medicare,99214,Complex Visit,1287,46,True,True,False,True,False,16.0,True,Out of Network,0,45
+CLM000947,UnitedHealth,99223,Hospital,6873,24,True,True,True,False,True,9.5,False,,0,15
+CLM000948,Medicaid,99223,Hospital,7489,25,False,True,True,True,True,7.2,False,,0,30
+CLM000949,Cigna,71020,X-Ray,206,8,True,False,True,True,True,11.7,False,,0,25
+CLM000950,Cigna,99214,Complex Visit,1167,36,True,False,True,True,False,15.2,True,Missing Info,0,50
+CLM000951,BlueCross,93000,EKG,321,30,False,True,True,True,True,21.1,True,Duplicate,0,30
+CLM000952,Medicaid,27447,Knee Replace,39410,13,True,False,True,False,True,28.4,True,Not Necessary,1,40
+CLM000953,Cigna,93000,EKG,562,26,True,True,True,True,True,11.4,False,,0,0
+CLM000954,Cigna,99214,Complex Visit,1848,45,True,True,True,False,False,9.9,True,Not Necessary,0,40
+CLM000955,Medicaid,99223,Hospital,9022,13,True,True,True,True,True,21.7,False,,0,0
+CLM000956,Medicare,29881,Surgery,42049,18,True,True,True,False,True,11.8,True,Duplicate,1,15
+CLM000957,Medicaid,29881,Surgery,42945,32,True,False,False,False,False,7.4,True,Duplicate,1,85
+CLM000958,Aetna,27447,Knee Replace,19248,32,True,True,True,False,False,53.0,True,Out of Network,1,40
+CLM000959,Medicaid,99223,Hospital,8787,32,True,True,True,True,False,17.4,False,,0,25
+CLM000960,Medicaid,99213,Office Visit,1847,10,True,False,False,True,True,24.8,False,,0,45
+CLM000961,UnitedHealth,99214,Complex Visit,416,19,True,False,True,True,True,20.4,True,Coverage Lapsed,0,25
+CLM000962,Cigna,80053,Lab Panel,741,57,True,True,True,False,False,18.6,False,,0,40
+CLM000963,BlueCross,29881,Surgery,44270,30,False,True,True,False,True,15.1,False,,1,45
+CLM000964,BlueCross,99213,Office Visit,1700,28,True,True,True,False,True,22.5,False,,0,15
+CLM000965,Aetna,80053,Lab Panel,765,43,False,False,True,False,False,35.9,True,Coverage Lapsed,0,95
+CLM000966,Cigna,99223,Hospital,13436,38,True,False,True,False,False,26.9,True,Timely Filing,1,65
+CLM000967,Medicare,93000,EKG,494,38,True,True,True,True,False,29.5,False,,0,25
+CLM000968,BlueCross,99223,Hospital,6427,49,True,True,False,True,False,25.0,False,,0,45
+CLM000969,Medicaid,93000,EKG,765,23,False,True,True,True,True,23.0,False,,0,30
+CLM000970,Cigna,93000,EKG,1022,42,True,True,True,True,False,8.1,False,,0,25
+CLM000971,UnitedHealth,99214,Complex Visit,1099,11,True,True,True,True,True,8.8,False,,0,0
+CLM000972,BlueCross,93000,EKG,627,18,True,False,True,False,True,18.0,True,Missing Info,0,40
+CLM000973,Medicaid,27447,Knee Replace,36633,21,True,True,True,False,True,49.6,True,Not Necessary,1,15
+CLM000974,Cigna,99214,Complex Visit,1906,11,True,True,True,True,True,21.9,False,,0,0
+CLM000975,Medicare,80053,Lab Panel,1122,41,True,False,True,False,False,4.0,True,Not Necessary,0,65
+CLM000976,Medicare,71020,X-Ray,975,37,True,True,True,True,False,11.0,False,,0,25
+CLM000977,Cigna,71020,X-Ray,893,18,True,True,False,True,True,17.6,False,,0,20
+CLM000978,BlueCross,27447,Knee Replace,15257,42,False,True,True,True,False,11.9,False,,1,55
+CLM000979,UnitedHealth,80053,Lab Panel,1127,26,False,True,True,False,True,26.4,True,Duplicate,0,45
+CLM000980,Medicare,27447,Knee Replace,23408,37,True,True,False,True,False,2.0,True,Coverage Lapsed,1,45
+CLM000981,Aetna,27447,Knee Replace,32630,34,True,False,False,True,False,18.2,False,,1,70
+CLM000982,Aetna,93000,EKG,497,48,False,True,True,True,False,16.0,True,Duplicate,0,55
+CLM000983,Cigna,29881,Surgery,31086,18,True,True,True,False,True,17.5,False,,1,15
+CLM000984,UnitedHealth,99223,Hospital,5881,8,True,True,True,True,True,41.4,False,,0,0
+CLM000985,Aetna,71020,X-Ray,1046,32,True,True,True,False,False,21.3,False,,0,40
+CLM000986,Medicare,29881,Surgery,22122,18,False,True,True,True,True,11.4,False,,1,30
+CLM000987,Aetna,99213,Office Visit,190,42,True,True,False,True,False,32.5,True,Missing Info,0,45
+CLM000988,Medicaid,27447,Knee Replace,28494,39,True,True,True,True,False,18.3,False,,1,25
+CLM000989,UnitedHealth,99214,Complex Visit,210,54,False,True,True,False,False,22.6,True,Prior Auth,0,70
+CLM000990,Aetna,99214,Complex Visit,609,16,True,True,True,True,True,32.7,False,,0,0
+CLM000991,Medicare,99214,Complex Visit,1571,52,True,True,False,False,False,25.5,True,Out of Network,0,60
+CLM000992,Cigna,71020,X-Ray,610,18,True,True,True,True,True,21.4,False,,0,0
+CLM000993,Cigna,29881,Surgery,17226,45,True,True,True,True,False,16.7,False,,1,25
+CLM000994,BlueCross,93000,EKG,870,57,False,False,True,True,False,22.3,False,,0,80
+CLM000995,Aetna,93000,EKG,609,42,False,True,True,True,False,9.4,False,,0,55
+CLM000996,Medicare,99213,Office Visit,1556,20,True,True,True,False,True,9.4,False,,0,15
+CLM000997,Medicaid,93000,EKG,1856,1,True,True,True,False,True,30.4,False,,0,15
+CLM000998,Cigna,80053,Lab Panel,1016,14,True,True,True,True,True,6.5,False,,0,0
+CLM000999,Aetna,27447,Knee Replace,40014,56,True,False,True,True,False,22.1,False,,1,50
+CLM001000,BlueCross,27447,Knee Replace,19572,57,False,False,True,False,False,4.9,True,Not Necessary,1,95
