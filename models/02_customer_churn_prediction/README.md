@@ -118,29 +118,7 @@ Customer Data → Feature Engineering → ML Model → Risk Predictions
 ]
 ```
 
----
 
-## 💻 Installation & Setup
-
-### Prerequisites:
-- Python 3.8+
-- pip package manager
-
-### Quick Start:
-```bash
-# 1. Clone repository
-git clone https://github.com/yourusername/financial-ml-models.git
-cd financial-ml-models/models/02_customer_churn_prediction
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Train model
-python train_model.py
-
-# 4. Launch dashboard
-streamlit run dashboard.py
-```
 
 ### Expected Output:
 ```
@@ -325,12 +303,8 @@ Month-over-Month:
 
 ---
 
-## 🎤 Interview Talking Points
+## 🎤 Points
 
-### 30-Second Pitch:
-> "I built a machine learning model that predicts SaaS customer churn with 85% accuracy. It identifies at-risk customers 30-90 days before they churn, enabling proactive retention. Companies using this approach reduce churn by 15-25%, saving millions in retained revenue."
-
-### 2-Minute Deep Dive:
 > "Customer churn is one of the biggest profitability killers for SaaS businesses. Acquiring a customer costs $500-$5,000, but losing them costs even more in lost LTV.
 >
 > I built a multi-class classification model using Random Forest that predicts three customer states: Active, At-Risk, and Churned. It analyzes 15 behavioral features including engagement scores, support ticket patterns, payment reliability, and satisfaction metrics.
@@ -339,7 +313,7 @@ Month-over-Month:
 >
 > The business impact is significant. At a $50M ARR company with 7% churn, reducing churn to 5% saves $1M annually. The model is deployed on Streamlit Cloud and can process both single customers and batch files of thousands of accounts."
 
-### For "How would you deploy this in production?":
+### How to deploy?":
 > "Phase 1 is data integration - connecting to the billing system, CRM, and product analytics to build a real-time feature pipeline. I'd schedule daily batch predictions and integrate Slack alerts for high-risk accounts.
 >
 > Phase 2 is stakeholder rollout - training the customer success team on the dashboard and establishing intervention playbooks for different risk levels. High-risk gets executive calls, medium-risk gets targeted campaigns.
@@ -385,9 +359,9 @@ This is **Model #2** in the Financial ML Models portfolio:
 This is a portfolio project demonstrating ML capabilities for finance leadership roles.
 
 For questions or collaboration:
-- **LinkedIn**: [Your Profile](#)
-- **Email**: [Your Email](#)
-- **Portfolio**: [Your Website](#)
+- **LinkedIn**: [https://www.linkedin.com/in/ye-quan-8b610820a/](#)
+- **Email**: [alexianaturecopy@gmail.com](#)
+- **Portfolio**: [](#)
 
 ---
 
