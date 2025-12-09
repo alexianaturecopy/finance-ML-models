@@ -10,6 +10,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from model import RevenueLeakageModel
 import os
+from pathlib import Path
 
 # Page configuration
 st.set_page_config(
@@ -63,13 +64,22 @@ st.markdown("""
 @st.cache_resource
 def load_model():
     """Load trained model (cached)"""
-    model_path = 'saved_models/revenue_leakage_model.pkl'
-    if os.path.exists(model_path):
-        return RevenueLeakageModel.load_model(model_path)
-    else:
-        st.error("⚠️ Model not found. Please run train_model.py first.")
+    # Get the directory where this script is located
+    script_dir = Path(__file__).parent
+    model_path = script_dir / 'saved_models' / 'revenue_leakage_model.pkl'
+    
+    if not model_path.exists():
+        st.error(f"❌ Model not found at: {model_path}")
+        st.info(f"Script directory: {script_dir}")
+        st.info(f"Current working directory: {os.getcwd()}")
         return None
-
+    
+    try:
+        return RevenueLeakageModel.load_model(str(model_path))
+    except Exception as e:
+        st.error(f"Error loading model: {e}")
+        return None
+        
 def create_prediction_form():
     """Create manual input form for single account prediction"""
     st.subheader("Enter Account Details")
