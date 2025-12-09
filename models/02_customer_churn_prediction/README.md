@@ -1,5 +1,6 @@
 # Customer Churn Prediction - ML Model
 
+[Live Vemo: https://finance-ml-models-9ika7ph7pnf8s4gs43kycq.streamlit.app/]
 AI-powered prediction system for SaaS customer churn prevention
 
 ---
