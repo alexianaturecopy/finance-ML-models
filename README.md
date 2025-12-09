@@ -66,24 +66,6 @@ financial-ml-models/
 
 ---
 
-## 🚀 Quick Start
-
-### Clone Repository
-```bash
-git clone https://github.com/yourusername/financial-ml-models.git
-cd financial-ml-models
-```
-
-### Run Any Model
-```bash
-cd models/01_revenue_leakage_detection
-pip install -r requirements.txt
-python train_model.py
-streamlit run dashboard.py  # If dashboard available
-```
-
----
-
 ## 💼 Business Value
 
 ### SaaS Models (#1 & #2)
@@ -111,11 +93,6 @@ streamlit run dashboard.py  # If dashboard available
 - Impact: 50% denial reduction = $3M recovered
 
 ---
-
-## 🎤 Interview Talking Points
-
-### 30-Second Pitch
-> "I've built four production ML models addressing financial problems in SaaS and Healthcare. Combined, they demonstrate $5-7M in potential annual impact. All models are trained, documented, and ready for deployment. This proves I can systematically apply AI to solve diverse financial problems."
 
 ### Technical Capabilities Demonstrated
 - Binary & multi-class classification
@@ -204,33 +181,23 @@ streamlit run dashboard.py  # If dashboard available
 **Built by**: Alexia  
 **Role**: CPA | CFO | Data Science Professional  
 **Focus**: Bridging traditional finance with AI/ML innovation  
-**LinkedIn**: [Your Profile]  
+**LinkedIn**: [https://www.linkedin.com/in/ye-quan-8b610820a/]  
 **Portfolio**: [Your Website]
 
 ---
 
-## 📄 License
-
-Educational and portfolio purposes.
-
----
 
 ## 🏆 Portfolio Strength
 
-### What This Demonstrates:
+### Demonstrates:
 - ✅ **Systematic capability** (4 models, not 1)
 - ✅ **Diverse problems** (SaaS + Healthcare)
 - ✅ **Production quality** (3,500+ lines of code)
 - ✅ **Business focus** ($5-7M impact)
 - ✅ **Technical depth** (multiple ML techniques)
 
-### Competitive Advantage:
-**Most CFO candidates**: "I'm data-driven"  
-**You**: "Here are 4 working ML models I built"
+
 
 ---
 
-*Portfolio Status: 100% Complete*  
-*Last Updated: December 2024*  
-*Total Code: 3,500+ lines*  
-*Business Impact: $5-7M annually*
+
